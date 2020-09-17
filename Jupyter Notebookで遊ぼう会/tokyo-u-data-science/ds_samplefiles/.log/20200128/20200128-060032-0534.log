@@ -1,0 +1,25 @@
+# 足し算の例
+print(1 + 1)
+
+# 掛け算の例
+print(2 * 5)
+
+# 10の3乗, べき乗は**を使う
+print(10 ** 3) 
+----
+path: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-060032-0534.log
+notebook_path: tokyo-u-data-science/ds_samplefiles/Chapter1.ipynb
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-01-28 06:00:32(UTC)
+----
+2
+10
+1000
+
+----
+end time: 2020-01-28 06:00:32(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

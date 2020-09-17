@@ -1,0 +1,27 @@
+{"lc_cell_meme": {"current": "c8f3b106-60db-11e9-b810-02420a00005a"}}
+----
+!curl https://etherpad.openstack.org/p/2020-nw-sec-ac/export/txt
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200401/20200401-022539-0873.log
+notebook_path: textbook/nw_sec/2-computer-network.ipynb
+lc_notebook_meme: c8f3adb4-60db-11e9-b810-02420a00005a
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-04-01 02:25:39(UTC)
+----
+このページは基本的に公開されてるので書き込み内容には注意してください。
+
+2020年度　コンピュータネットワークとセキュリティ　講義出席管理（attendance confirmation)
+
+自分の学籍番号とニックネームを（学籍番号）スペース（ニックネーム）の形式で
+この下に書き込んでください。出席のチェックに使います。
+
+(4/22)
+
+
+----
+end time: 2020-04-01 02:25:41(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

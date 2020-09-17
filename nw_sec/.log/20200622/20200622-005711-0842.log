@@ -1,0 +1,35 @@
+{"lc_cell_meme": {"current": "1cadfc40-8736-11e9-8556-02420a010127"}}
+----
+!sudo apt-get install whois -y
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200622/20200622-005711-0842.log
+notebook_path: textbook/nw_sec/8-linux-network-wan.ipynb
+lc_notebook_meme: 1cadf7d6-8736-11e9-8556-02420a010127
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-06-22 00:57:11(UTC)
+----
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 47%Reading package lists... 66%Reading package lists... 66%Reading package lists... 67%Reading package lists... 67%Reading package lists... 75%Reading package lists... 75%Reading package lists... 76%Reading package lists... 76%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  whois
+0 upgraded, 1 newly installed, 0 to remove and 168 not upgraded.
+Need to get 43.7 kB of archives.
+After this operation, 262 kB of additional disk space will be used.
+0% [Working]0% [Working]0% [Waiting for headers]                        Get:1 http://archive.ubuntu.com/ubuntu bionic/main amd64 whois amd64 5.3.0 [43.7 kB]
+23% [1 whois 12.6 kB/43.7 kB 29%]                                 100% [Working]              Fetched 43.7 kB in 1s (30.6 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package whois.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 133513 files and directories currently installed.)
+Preparing to unpack .../archives/whois_5.3.0_amd64.deb ...
+Unpacking whois (5.3.0) ...
+Setting up whois (5.3.0) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+
+----
+end time: 2020-06-22 00:57:17(UTC)
+1 chunks with matched keywords or errors
+----
+execute_reply_status: ok

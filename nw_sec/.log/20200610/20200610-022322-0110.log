@@ -1,0 +1,23 @@
+{"lc_cell_meme": {"current": "49ad22d6-76e5-11e9-96dc-02420a00000b"}}
+----
+!sudo apt-get install net-tools -y
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200610/20200610-022322-0110.log
+notebook_path: textbook/nw_sec/6-linux-network-overview.ipynb
+lc_notebook_meme: 49ad1d90-76e5-11e9-96dc-02420a00000b
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-06-10 02:23:22(UTC)
+----
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 50%Reading package lists... 66%Reading package lists... 66%Reading package lists... 67%Reading package lists... 67%Reading package lists... 75%Reading package lists... 75%Reading package lists... 76%Reading package lists... 76%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 56%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+net-tools is already the newest version (1.60+git20161116.90da8a0-1ubuntu1).
+0 upgraded, 0 newly installed, 0 to remove and 166 not upgraded.
+
+----
+end time: 2020-06-10 02:23:25(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

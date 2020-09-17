@@ -1,0 +1,23 @@
+{"lc_cell_meme": {"current": "ceb4078a-9196-11e9-8556-02420a010127"}}
+----
+!netstat -r
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200625/20200625-023659-0822.log
+notebook_path: textbook/nw_sec/9-network-routing.ipynb
+lc_notebook_meme: ceb40460-9196-11e9-8556-02420a010127
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-06-25 02:36:59(UTC)
+----
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+default         172.19.0.1      0.0.0.0         UG        0 0          0 eth1
+10.1.0.0        0.0.0.0         255.255.240.0   U         0 0          0 eth0
+172.19.0.0      0.0.0.0         255.255.0.0     U         0 0          0 eth1
+
+----
+end time: 2020-06-25 02:37:01(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

@@ -1,0 +1,22 @@
+# KMeansクラスの初期化
+kmeans = KMeans(init='random',n_clusters=3)
+
+# クラスターの重心を計算
+kmeans.fit(X)
+
+# クラスター番号を予測
+y_pred = kmeans.predict(X)
+----
+path: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-060137-0879.log
+notebook_path: tokyo-u-data-science/ds_samplefiles/Chapter9.ipynb
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-01-28 06:01:37(UTC)
+----
+
+----
+end time: 2020-01-28 06:01:37(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

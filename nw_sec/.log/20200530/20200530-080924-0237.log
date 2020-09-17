@@ -1,0 +1,29 @@
+{"lc_cell_meme": {"current": "d9dbb8d0-6be2-11e9-96dc-02420a00000b"}}
+----
+!nmap localhost
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200530/20200530-080924-0237.log
+notebook_path: textbook/nw_sec/5-linux-security.ipynb
+lc_notebook_meme: d9dbb4de-6be2-11e9-96dc-02420a00000b
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-05-30 08:09:24(UTC)
+----
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-05-30 08:09 UTC
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00035s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 998 closed ports
+PORT      STATE SERVICE
+8888/tcp  open  sun-answerbook
+45100/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.12 seconds
+
+----
+end time: 2020-05-30 08:09:25(UTC)
+4 chunks with matched keywords or errors
+----
+execute_reply_status: ok

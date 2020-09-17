@@ -1,0 +1,20 @@
+{"lc_cell_meme": {"current": "8678f024-9188-11e9-8556-02420a010127"}}
+----
+!dig www.gunma-u.ac.jp
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200702/20200702-011743-0095.log
+notebook_path: textbook/nw_sec/10-network-dns.ipynb
+lc_notebook_meme: 8678eba6-9188-11e9-8556-02420a010127
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-07-02 01:17:43(UTC)
+----
+^C
+
+----
+end time: 2020-07-02 01:17:59(UTC)
+0 chunks with matched keywords or errors
+----
+result: /home/yoko69d621/textbook/nw_sec/.log/20200702/20200702-011743-0095-0.pkl
+execute_reply_status: error

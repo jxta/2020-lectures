@@ -1,0 +1,28 @@
+{"lc_cell_meme": {"current": "c8f3b106-60db-11e9-b810-02420a00005a"}}
+----
+!curl https://etherpad.openstack.org/p/2020-nw-sec-ac/export/txt
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200401/20200401-022302-0654.log
+notebook_path: textbook/nw_sec/2-computer-network.ipynb
+lc_notebook_meme: c8f3adb4-60db-11e9-b810-02420a00005a
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-04-01 02:23:02(UTC)
+----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /p/2020-nw-sec-ac/export/txt</pre>
+</body>
+</html>
+
+----
+end time: 2020-04-01 02:23:05(UTC)
+1 chunks with matched keywords or errors
+----
+execute_reply_status: ok

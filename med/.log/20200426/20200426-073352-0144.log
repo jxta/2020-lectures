@@ -1,0 +1,18 @@
+{"lc_cell_meme": {"current": "3171fbf6-6178-11e9-b810-02420a00005a"}}
+----
+!(curl https://etherpad.opendev.org/p/2020-med-b-ac/export/txt 2> /dev/null 2> /dev/null)|cut -c1-8 |head -64|tail -56|tr [a-z] [A-Z]|uniq|sort| diff - ./med-b
+----
+path: /home/yoko69d621/textbook/med/.log/20200426/20200426-073352-0144.log
+notebook_path: textbook/med/4-linux-operating-system.ipynb
+lc_notebook_meme: 3171f642-6178-11e9-b810-02420a00005a
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-04-26 07:33:52(UTC)
+----
+
+----
+end time: 2020-04-26 07:33:53(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

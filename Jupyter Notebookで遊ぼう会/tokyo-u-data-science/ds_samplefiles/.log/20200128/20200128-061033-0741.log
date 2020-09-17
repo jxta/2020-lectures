@@ -1,0 +1,18 @@
+# 「fin_flg」カラムを追加し、もし「flg-50K」カラムの値が「>50K」だったら1、そうでなければ0をセットする
+adult['fin_flg'] = adult['flg-50K'].map(lambda x: 1 if x ==' >50K' else 0)
+adult.groupby('fin_flg').size()
+----
+path: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-061033-0741.log
+notebook_path: tokyo-u-data-science/ds_samplefiles/Chapter8.ipynb
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-01-28 06:10:33(UTC)
+----
+
+----
+end time: 2020-01-28 06:10:33(UTC)
+0 chunks with matched keywords or errors
+----
+result: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-061033-0741-0.pkl
+execute_reply_status: ok

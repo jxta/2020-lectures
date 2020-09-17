@@ -1,0 +1,27 @@
+{"lc_cell_meme": {"current": "d9dbb93e-6be2-11e9-96dc-02420a00000b"}}
+----
+!ping; true
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200527/20200527-090343-0924.log
+notebook_path: textbook/nw_sec/4-linux-network.ipynb
+lc_notebook_meme: d9dbb4de-6be2-11e9-96dc-02420a00000b
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-05-27 09:03:43(UTC)
+----
+Usage: ping [-aAbBdDfhLnOqrRUvV64] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+Usage: ping -6 [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+             [-l preload] [-m mark] [-M pmtudisc_option]
+             [-N nodeinfo_option] [-p pattern] [-Q tclass] [-s packetsize]
+             [-S sndbuf] [-t ttl] [-T timestamp_option] [-w deadline]
+             [-W timeout] destination
+
+----
+end time: 2020-05-27 09:03:45(UTC)
+2 chunks with matched keywords or errors
+----
+execute_reply_status: ok

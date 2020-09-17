@@ -1,0 +1,27 @@
+# エルボー方による推定。クラスター数を1から20に増やして、それぞれの距離の総和を求める
+dist_list =[]
+for i in range(1,20):
+    kmeans= KMeans(n_clusters=i, init='random', random_state=0)
+    kmeans.fit(bank_sub_std)
+    dist_list.append(kmeans.inertia_)
+    
+# グラフを表示
+plt.plot(range(1,20), dist_list,marker='+')
+plt.xlabel('Number of clusters')
+plt.ylabel('Distortion')
+----
+path: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-060215-0484.log
+notebook_path: tokyo-u-data-science/ds_samplefiles/Chapter9.ipynb
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-01-28 06:02:15(UTC)
+----
+
+----
+end time: 2020-01-28 06:03:11(UTC)
+0 chunks with matched keywords or errors
+----
+result: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-060215-0484-0.pkl
+result: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-060215-0484-1.pkl
+execute_reply_status: ok

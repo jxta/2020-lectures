@@ -1,0 +1,30 @@
+{"lc_cell_meme": {"current": "d9dbb93e-6be2-11e9-96dc-02420a00000b"}}
+----
+!sudo apt-get install ssh -y;  sudo apt-get install openssh-server -y; sudo /etc/init.d/ssh start
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200603/20200603-062445-0332.log
+notebook_path: textbook/nw_sec/5-linux-security.ipynb
+lc_notebook_meme: d9dbb4de-6be2-11e9-96dc-02420a00000b
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-06-03 06:24:45(UTC)
+----
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 41%Reading package lists... 66%Reading package lists... 66%Reading package lists... 67%Reading package lists... 67%Reading package lists... 75%Reading package lists... 75%Reading package lists... 76%Reading package lists... 76%Reading package lists... 84%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+ssh is already the newest version (1:7.6p1-4ubuntu0.3).
+0 upgraded, 0 newly installed, 0 to remove and 175 not upgraded.
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 44%Reading package lists... 66%Reading package lists... 66%Reading package lists... 67%Reading package lists... 67%Reading package lists... 75%Reading package lists... 75%Reading package lists... 76%Reading package lists... 76%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+openssh-server is already the newest version (1:7.6p1-4ubuntu0.3).
+0 upgraded, 0 newly installed, 0 to remove and 175 not upgraded.
+ * Starting OpenBSD Secure Shell server sshd
+   ...done.
+
+----
+end time: 2020-06-03 06:24:51(UTC)
+2 chunks with matched keywords or errors
+----
+execute_reply_status: ok

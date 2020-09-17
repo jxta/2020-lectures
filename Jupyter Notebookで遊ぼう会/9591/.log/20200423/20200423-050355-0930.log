@@ -1,0 +1,37 @@
+{"lc_cell_meme": {"current": "e0b7e0ae-8733-11e9-8556-02420a010127"}}
+----
+def dec2hex(target):
+    amari = []  # 余りを入れるリスト
+
+    # 割り算の商が0になるまで
+    while target != 0:
+        amari.append(target % 16)  # 余り
+        target = target // 16      # 商
+
+    # 余りの10～15をA～Fに置換
+    for i in range(len(amari)):
+        if amari[i] == 10:     amari[i] = 'A'
+        elif amari[i] == 11:   amari[i] = 'B'
+        elif amari[i] == 12:   amari[i] = 'C'
+        elif amari[i] == 13:   amari[i] = 'D'
+        elif amari[i] == 14:   amari[i] = 'E'
+        elif amari[i] == 15:   amari[i] = 'F'
+        
+    # リストの要素を逆順にして返す
+    amari.reverse()
+    return amari
+----
+path: /home/yoko69d621/textbook/Jupyter Notebookで遊ぼう会/9591/.log/20200423/20200423-050355-0930.log
+notebook_path: textbook/Jupyter Notebookで遊ぼう会/9591/Chap1-2.ipynb
+lc_notebook_meme: e0b7dd7a-8733-11e9-8556-02420a010127
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-04-23 05:03:55(UTC)
+----
+
+----
+end time: 2020-04-23 05:03:55(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

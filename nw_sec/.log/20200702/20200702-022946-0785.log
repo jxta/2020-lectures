@@ -1,0 +1,21 @@
+{"lc_cell_meme": {"current": "67529eec-926f-11e9-8556-02420a010127"}}
+----
+!sudo /etc/init.d/apache2 start
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200702/20200702-022946-0785.log
+notebook_path: textbook/nw_sec/11-network-mail-web.ipynb
+lc_notebook_meme: 67529adc-926f-11e9-8556-02420a010127
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-07-02 02:29:46(UTC)
+----
+ * Starting Apache httpd web server apache2
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 10.1.1.21. Set the 'ServerName' directive globally to suppress this message
+ * 
+
+----
+end time: 2020-07-02 02:29:49(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

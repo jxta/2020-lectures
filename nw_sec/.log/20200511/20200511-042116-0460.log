@@ -1,0 +1,20 @@
+{"lc_cell_meme": {"current": "c8f3b192-60db-11e9-b810-02420a00005a"}}
+----
+##ここの下の行にコマンドを記述して実行してみてください。
+curl http://wttr.in/lansing
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200511/20200511-042116-0460.log
+notebook_path: textbook/nw_sec/2-computer-network.ipynb
+lc_notebook_meme: c8f3adb4-60db-11e9-b810-02420a00005a
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-05-11 04:21:16(UTC)
+----
+
+----
+end time: 2020-05-11 04:21:16(UTC)
+0 chunks with matched keywords or errors
+----
+result: /home/yoko69d621/textbook/nw_sec/.log/20200511/20200511-042116-0460-0.pkl
+execute_reply_status: error

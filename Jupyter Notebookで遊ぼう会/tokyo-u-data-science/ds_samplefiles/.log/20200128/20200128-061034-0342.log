@@ -1,0 +1,35 @@
+# リッジ回帰用のクラス
+from sklearn.linear_model import Ridge
+from sklearn.model_selection import train_test_split
+
+# 訓練データとテストデータに分割
+X = auto.drop('price', axis=1)
+y = auto['price']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state=0)
+
+# モデルの構築と評価
+linear = LinearRegression()
+ridge = Ridge(random_state=0)
+
+for model in [linear, ridge]:
+    model.fit(X_train,y_train)
+    print('{}(train):{:.6f}'.format(model.__class__.__name__ , model.score(X_train,y_train)))
+    print('{}(test):{:.6f}'.format(model.__class__.__name__ , model.score(X_test,y_test)))
+----
+path: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-061034-0342.log
+notebook_path: tokyo-u-data-science/ds_samplefiles/Chapter8.ipynb
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-01-28 06:10:34(UTC)
+----
+LinearRegression(train):0.733358
+LinearRegression(test):0.737069
+Ridge(train):0.733355
+Ridge(test):0.737768
+
+----
+end time: 2020-01-28 06:10:34(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

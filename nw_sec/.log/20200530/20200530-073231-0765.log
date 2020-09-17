@@ -1,0 +1,31 @@
+{"lc_cell_meme": {"current": "d9dbb8d0-6be2-11e9-96dc-02420a00000b"}}
+----
+!nmap example.com
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200530/20200530-073231-0765.log
+notebook_path: textbook/nw_sec/5-linux-security.ipynb
+lc_notebook_meme: d9dbb4de-6be2-11e9-96dc-02420a00000b
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-05-30 07:32:31(UTC)
+----
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-05-30 07:32 UTC
+Nmap scan report for example.com (93.184.216.34)
+Host is up (0.11s latency).
+Other addresses for example.com (not scanned): 2606:2800:220:1:248:1893:25c8:1946
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+1119/tcp closed bnetgame
+1935/tcp closed rtmp
+
+Nmap done: 1 IP address (1 host up) scanned in 8.54 seconds
+
+----
+end time: 2020-05-30 07:32:41(UTC)
+5 chunks with matched keywords or errors
+----
+execute_reply_status: ok

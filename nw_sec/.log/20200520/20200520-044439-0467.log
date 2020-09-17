@@ -1,0 +1,19 @@
+{"lc_cell_meme": {"current": "b7fed39a-6ed1-11e9-96dc-02420a00000b"}}
+----
+!(curl https://etherpad.openstack.org/p/2020-nw-sec-ac/export/txt 2> /dev/null) |head -108|tail -100| shuf  -n 1
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200520/20200520-044439-0467.log
+notebook_path: textbook/nw_sec/3-linux-operating-system.ipynb
+lc_notebook_meme: 3171f642-6178-11e9-b810-02420a00005a
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-05-20 04:44:39(UTC)
+----
+<title>302 Found</title>
+
+----
+end time: 2020-05-20 04:44:41(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

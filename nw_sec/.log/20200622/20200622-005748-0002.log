@@ -1,0 +1,41 @@
+{"lc_cell_meme": {"current": "1cadfcd6-8736-11e9-8556-02420a010127"}}
+----
+!whois -h whois.jprs.jp gunma-u.ac.jp
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200622/20200622-005748-0002.log
+notebook_path: textbook/nw_sec/8-linux-network-wan.ipynb
+lc_notebook_meme: 1cadf7d6-8736-11e9-8556-02420a010127
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-06-22 00:57:48(UTC)
+----
+[ JPRS database provides information on network administration. Its use is    ]
+[ restricted to network administration purposes. For further information,     ]
+[ use 'whois -h whois.jprs.jp help'. To suppress Japanese output, add'/e'     ]
+[ at the end of command, e.g. 'whois -h whois.jprs.jp xxx/e'.                 ]
+
+Domain Information:
+a. [Domain Name]                GUNMA-U.AC.JP
+g. [Organization]               Gunma University
+l. [Organization Type]          University
+m. [Administrative Contact]     SY35756JP
+n. [Technical Contact]          HI36664JP
+n. [Technical Contact]          TS76054JP
+n. [Technical Contact]          TO46804JP
+n. [Technical Contact]          AW8924JP
+p. [Name Server]                nse01.gunma-u.ac.jp
+p. [Name Server]                nse02.gunma-u.ac.jp
+p. [Name Server]                dns-x.sinet.ad.jp
+s. [Signing Key]                
+[State]                         Connected (2021/03/31)
+[Registered Date]                
+[Connected Date]                2016/07/11
+[Last Update]                   2020/04/01 01:04:56 (JST)
+
+
+----
+end time: 2020-06-22 00:57:49(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

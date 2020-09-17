@@ -1,0 +1,19 @@
+{"lc_cell_meme": {"current": "d9dbb862-6be2-11e9-96dc-02420a00000b"}}
+----
+!ip --help; true
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200527/20200527-090309-0807.log
+notebook_path: textbook/nw_sec/4-linux-network.ipynb
+lc_notebook_meme: d9dbb4de-6be2-11e9-96dc-02420a00000b
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-05-27 09:03:09(UTC)
+----
+/bin/sh: 1: ip: not found
+
+----
+end time: 2020-05-27 09:03:10(UTC)
+1 chunks with matched keywords or errors
+----
+execute_reply_status: ok

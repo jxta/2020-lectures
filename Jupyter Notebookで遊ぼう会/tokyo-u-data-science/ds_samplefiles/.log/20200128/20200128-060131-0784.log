@@ -1,0 +1,29 @@
+# k-means法を使うためのインポート
+from sklearn.cluster import KMeans
+
+# データ取得のためのインポート
+from sklearn.datasets import make_blobs
+
+# サンプルデータ生成
+# 注意：make_blobsは2つの値を返すため、一方は使用しない「 _ 」で受け取る
+X, _ = make_blobs(random_state=10)
+
+# グラフを描画
+# colorのオプションで色付けができる
+plt.scatter(X[:,0],X[:,1],color='black')
+----
+path: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-060131-0784.log
+notebook_path: tokyo-u-data-science/ds_samplefiles/Chapter9.ipynb
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-01-28 06:01:31(UTC)
+----
+
+----
+end time: 2020-01-28 06:01:32(UTC)
+0 chunks with matched keywords or errors
+----
+result: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-060131-0784-0.pkl
+result: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-060131-0784-1.pkl
+execute_reply_status: ok

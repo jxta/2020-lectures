@@ -1,0 +1,23 @@
+from sklearn.preprocessing import StandardScaler
+
+# データの列の絞り込み
+bank_sub = bank[['age','balance','campaign','previous']]
+
+# 標準化
+sc = StandardScaler()
+sc.fit(bank_sub)
+bank_sub_std = sc.transform(bank_sub)
+----
+path: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-060200-0052.log
+notebook_path: tokyo-u-data-science/ds_samplefiles/Chapter9.ipynb
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-01-28 06:02:00(UTC)
+----
+
+----
+end time: 2020-01-28 06:02:00(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

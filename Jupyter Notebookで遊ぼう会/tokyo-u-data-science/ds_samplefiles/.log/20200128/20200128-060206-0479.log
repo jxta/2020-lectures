@@ -1,0 +1,39 @@
+# KMeansクラスの初期化
+kmeans = KMeans(init='random', n_clusters=6, random_state=0)
+
+# クラスターの重心を計算
+kmeans.fit(bank_sub_std)
+
+# クラスター番号をpandasのSeriesオブジェクトに変換
+labels = pd.Series(kmeans.labels_, name='cluster_number')
+
+# クラスター番号と件数を表示
+print(labels.value_counts(sort=False))
+
+# グラフを描画
+ax = labels.value_counts(sort=False).plot(kind='bar')
+ax.set_xlabel('cluster number')
+ax.set_ylabel('count')
+----
+path: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-060206-0479.log
+notebook_path: tokyo-u-data-science/ds_samplefiles/Chapter9.ipynb
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-01-28 06:02:06(UTC)
+----
+0    24509
+1      221
+2     2684
+3     1380
+4    14734
+5     1683
+Name: cluster_number, dtype: int64
+
+----
+end time: 2020-01-28 06:02:07(UTC)
+0 chunks with matched keywords or errors
+----
+result: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-060206-0479-0.pkl
+result: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-060206-0479-1.pkl
+execute_reply_status: ok

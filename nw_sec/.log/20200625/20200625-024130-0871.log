@@ -1,0 +1,19 @@
+!sudo ip -s neigh flush all
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200625/20200625-024130-0871.log
+notebook_path: textbook/nw_sec/9-network-routing.ipynb
+lc_notebook_meme: ceb40460-9196-11e9-8556-02420a010127
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-06-25 02:41:30(UTC)
+----
+Failed to send flush request: Operation not permitted
+Flush terminated
+
+----
+end time: 2020-06-25 02:41:32(UTC)
+2 chunks with matched keywords or errors
+----
+result: /home/yoko69d621/textbook/nw_sec/.log/20200625/20200625-024130-0871-0.pkl
+execute_reply_status: error

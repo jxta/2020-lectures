@@ -1,0 +1,23 @@
+{"lc_cell_meme": {"current": "ceb407ee-9196-11e9-8556-02420a010127"}}
+----
+!netstat -i
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200625/20200625-023710-0630.log
+notebook_path: textbook/nw_sec/9-network-routing.ipynb
+lc_notebook_meme: ceb40460-9196-11e9-8556-02420a010127
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-06-25 02:37:10(UTC)
+----
+Kernel Interface table
+Iface      MTU    RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR Flg
+eth0      1450 12262107      0      0 0      11827068      0      0      0 BMRU
+eth1      1500  1404805      0      0 0       1626854      0    283      0 BMRU
+lo       65536 62348283      0     18 0      62348283      0      0      0 LRU
+
+----
+end time: 2020-06-25 02:37:11(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

@@ -1,0 +1,26 @@
+{"lc_cell_meme": {"current": "c8f3b192-60db-11e9-b810-02420a00005a"}}
+----
+##ここの下の行にコマンドをコピーして実行してみてください。
+!curl https://etherpad.openstack.org/p/2019-cloud-ac/export/txt
+----
+path: /home/yoko69d621/textbook/cloud/.log/20191001/20191001-072351-0023.log
+notebook_path: textbook/cloud/2-computer-network.ipynb
+lc_notebook_meme: c8f3adb4-60db-11e9-b810-02420a00005a
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2019-10-01 07:23:51(UTC)
+----
+注意：このページは基本的に公開されてるので書き込み内容には注意してください。
+
+2019年度　クラウド入門　講義出席管理（attendance confirmation）
+自分の学籍番号とニックネームをこの下に書き込んでください。出席のチェックに使います
+
+------------------------------------------------------------------------
+(10/2)
+
+----
+end time: 2019-10-01 07:23:52(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

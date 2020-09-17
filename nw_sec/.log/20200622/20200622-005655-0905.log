@@ -1,0 +1,27 @@
+{"lc_cell_meme": {"current": "1cadfbaa-8736-11e9-8556-02420a010127"}}
+----
+!sudo apt-get update
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200622/20200622-005655-0905.log
+notebook_path: textbook/nw_sec/8-linux-network-wan.ipynb
+lc_notebook_meme: 1cadf7d6-8736-11e9-8556-02420a010127
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-06-22 00:56:55(UTC)
+----
+0% [Working]            Hit:1 https://download.docker.com/linux/ubuntu bionic InRelease
+0% [Connecting to archive.ubuntu.com] [Connecting to security.ubuntu.com]0% [1 InRelease gpgv 64.4 kB] [Connecting to archive.ubuntu.com] [Connecting to                                                                               0% [Connecting to archive.ubuntu.com] [Connecting to security.ubuntu.com]                                                                         Hit:2 http://archive.ubuntu.com/ubuntu bionic InRelease
+                                                                         0% [Waiting for headers]                        Get:3 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+0% [Waiting for headers] [3 InRelease 12.6 kB/88.7 kB 14%]0% [2 InRelease gpgv 242 kB] [Waiting for headers] [3 InRelease 12.6 kB/88.7 kB                                                                               0% [Waiting for headers] [3 InRelease 12.6 kB/88.7 kB 14%]                                                          Get:4 http://archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+0% [4 InRelease 13.9 kB/88.7 kB 16%] [3 InRelease 22.9 kB/88.7 kB 26%]                                                                      0% [4 InRelease 42.2 kB/88.7 kB 48%]0% [3 InRelease gpgv 88.7 kB] [4 InRelease 42.2 kB/88.7 kB 48%]                                                               0% [3 InRelease gpgv 88.7 kB]                             0% [Waiting for headers]0% [4 InRelease gpgv 88.7 kB] [Waiting for headers]                                                   0% [Waiting for headers]                        Get:5 http://archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+0% [5 InRelease 4,860 B/74.6 kB 7%]                                   0% [Working]0% [5 InRelease gpgv 74.6 kB] [Waiting for headers]                                                   26% [Waiting for headers]                         Get:6 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [1,253 kB]
+26% [6 Packages 4,941 B/1,253 kB 0%]41% [6 Packages 561 kB/1,253 kB 45%]                                    Get:7 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [1,397 kB]
+62% [7 Packages 71.5 kB/1,397 kB 5%]63% [6 Packages store 0 B] [7 Packages 75.4 kB/1,397 kB 5%]                                                           87% [7 Packages 946 kB/1,397 kB 68%]                                    99% [Working]99% [7 Packages store 0 B]                          100% [Working]              Fetched 2,902 kB in 3s (959 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 50%Reading package lists... 66%Reading package lists... 66%Reading package lists... 67%Reading package lists... 67%Reading package lists... 75%Reading package lists... 75%Reading package lists... 76%Reading package lists... 76%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+
+----
+end time: 2020-06-22 00:57:01(UTC)
+1 chunks with matched keywords or errors
+----
+execute_reply_status: ok

@@ -1,0 +1,48 @@
+{"lc_cell_meme": {"current": "06fb125e-8734-11e9-8556-02420a010127"}}
+----
+def dec2bin_ex(target):
+    # targetを整数部と小数部に分ける
+    i = int(target)  # 整数部
+    f = target - i   # 小数部
+    
+    # 整数部を2進数に変換
+    a = []  # 余りを入れるリスト
+
+    # 割り算の商が0になるまで
+    while i != 0:
+        a.append(i % 2)  # 余り
+        i = i // 2       # 商
+
+    # 要素を逆順にする
+    a.reverse()
+    
+    #小数部を2進数に変換
+    b = []  # 整数部を入れるリスト
+    n = 0   # 繰り返した回数
+
+    # 2を掛けた後の小数部が0になるまで
+    while (f != 0):
+        temp = f * 2          # 小数部×2
+        b.append(int(temp))   # 整数部
+        f = temp - int(temp)  # 小数部
+        n += 1 
+        if (n >= 10):
+            break
+    
+    # 2進数に変換した値
+    return a, b
+----
+path: /home/yoko69d621/textbook/Jupyter Notebookで遊ぼう会/9591/.log/20200423/20200423-050544-0687.log
+notebook_path: textbook/Jupyter Notebookで遊ぼう会/9591/Chap1-5.ipynb
+lc_notebook_meme: 06fb0e6c-8734-11e9-8556-02420a010127
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-04-23 05:05:44(UTC)
+----
+
+----
+end time: 2020-04-23 05:05:44(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

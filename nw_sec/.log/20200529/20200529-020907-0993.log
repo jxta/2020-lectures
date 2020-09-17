@@ -1,0 +1,68 @@
+{"lc_cell_meme": {"current": "d9dbb7f4-6be2-11e9-96dc-02420a00000b"}}
+----
+!netstat -nt
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200529/20200529-020907-0993.log
+notebook_path: textbook/nw_sec/5-linux-security.ipynb
+lc_notebook_meme: d9dbb4de-6be2-11e9-96dc-02420a00000b
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-05-29 02:09:07(UTC)
+----
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 127.0.0.1:57337         127.0.0.1:58746         ESTABLISHED
+tcp        0      0 10.1.1.21:8888          10.1.0.7:47136          TIME_WAIT  
+tcp        0      0 127.0.0.1:43740         127.0.0.1:60966         ESTABLISHED
+tcp        0      0 127.0.0.1:49486         127.0.0.1:46068         ESTABLISHED
+tcp        0      0 127.0.0.1:32998         127.0.0.1:54428         ESTABLISHED
+tcp        0      0 127.0.0.1:54336         127.0.0.1:32998         ESTABLISHED
+tcp        0      0 127.0.0.1:43814         127.0.0.1:60966         ESTABLISHED
+tcp        0      0 127.0.0.1:50386         127.0.0.1:51046         ESTABLISHED
+tcp        0      0 127.0.0.1:45177         127.0.0.1:51566         ESTABLISHED
+tcp        0      0 127.0.0.1:51046         127.0.0.1:50386         ESTABLISHED
+tcp        0      0 10.1.1.21:8888          10.1.0.7:38792          ESTABLISHED
+tcp        0      0 127.0.0.1:46068         127.0.0.1:49486         ESTABLISHED
+tcp        0      0 127.0.0.1:56002         127.0.0.1:60726         ESTABLISHED
+tcp        0      0 127.0.0.1:60966         127.0.0.1:43814         ESTABLISHED
+tcp        0      0 127.0.0.1:42320         127.0.0.1:46376         ESTABLISHED
+tcp        0      0 127.0.0.1:42756         127.0.0.1:49820         ESTABLISHED
+tcp        0      0 127.0.0.1:54428         127.0.0.1:32998         ESTABLISHED
+tcp        0      0 127.0.0.1:42240         127.0.0.1:46376         ESTABLISHED
+tcp        0      0 127.0.0.1:58746         127.0.0.1:57337         ESTABLISHED
+tcp        0      0 127.0.0.1:33268         127.0.0.1:42694         ESTABLISHED
+tcp        0      0 127.0.0.1:37533         127.0.0.1:40836         ESTABLISHED
+tcp        0      0 127.0.0.1:40782         127.0.0.1:33811         ESTABLISHED
+tcp        0      0 127.0.0.1:42756         127.0.0.1:49912         ESTABLISHED
+tcp        0      0 127.0.0.1:58487         127.0.0.1:41988         ESTABLISHED
+tcp        0      0 127.0.0.1:32998         127.0.0.1:54336         ESTABLISHED
+tcp        0      0 127.0.0.1:41988         127.0.0.1:58487         ESTABLISHED
+tcp        0      0 127.0.0.1:48037         127.0.0.1:39372         ESTABLISHED
+tcp        0      0 10.1.1.21:8888          10.1.0.7:34990          ESTABLISHED
+tcp        0      0 127.0.0.1:46376         127.0.0.1:42240         ESTABLISHED
+tcp        0      0 127.0.0.1:49912         127.0.0.1:42756         ESTABLISHED
+tcp        0      0 127.0.0.1:50580         127.0.0.1:44711         ESTABLISHED
+tcp        0      0 127.0.0.1:40836         127.0.0.1:37533         ESTABLISHED
+tcp        0      0 127.0.0.1:54419         127.0.0.1:41276         ESTABLISHED
+tcp        0      0 127.0.0.1:60966         127.0.0.1:43740         ESTABLISHED
+tcp        0      0 127.0.0.1:60726         127.0.0.1:56002         ESTABLISHED
+tcp        0      0 127.0.0.1:44711         127.0.0.1:50580         ESTABLISHED
+tcp        0      0 127.0.0.1:51566         127.0.0.1:45177         ESTABLISHED
+tcp        0      0 127.0.0.1:48160         127.0.0.1:42340         ESTABLISHED
+tcp        0      0 10.1.1.21:8888          10.1.0.7:33714          ESTABLISHED
+tcp        0      0 127.0.0.1:42694         127.0.0.1:33268         ESTABLISHED
+tcp        0      0 127.0.0.1:41276         127.0.0.1:54419         ESTABLISHED
+tcp        0      0 127.0.0.1:47028         127.0.0.1:34051         ESTABLISHED
+tcp        0      0 127.0.0.1:46376         127.0.0.1:42320         ESTABLISHED
+tcp        0      0 127.0.0.1:39372         127.0.0.1:48037         ESTABLISHED
+tcp        0      0 127.0.0.1:49820         127.0.0.1:42756         ESTABLISHED
+tcp        0      0 127.0.0.1:42340         127.0.0.1:48160         ESTABLISHED
+tcp        0      0 127.0.0.1:33811         127.0.0.1:40782         ESTABLISHED
+tcp        0      0 127.0.0.1:34051         127.0.0.1:47028         ESTABLISHED
+
+----
+end time: 2020-05-29 02:09:09(UTC)
+1 chunks with matched keywords or errors
+----
+execute_reply_status: ok

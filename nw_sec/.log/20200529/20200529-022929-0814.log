@@ -1,0 +1,252 @@
+{"lc_cell_meme": {"current": "d9dbb93e-6be2-11e9-96dc-02420a00000b"}}
+----
+!sudo apt-get install ssh -y;  sudo apt-get install openssh-server -y; sudo /etc/init.d/ssh start
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200529/20200529-022929-0814.log
+notebook_path: textbook/nw_sec/5-linux-security.ipynb
+lc_notebook_meme: d9dbb4de-6be2-11e9-96dc-02420a00000b
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-05-29 02:29:29(UTC)
+----
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 56%Reading package lists... 66%Reading package lists... 66%Reading package lists... 67%Reading package lists... 67%Reading package lists... 75%Reading package lists... 75%Reading package lists... 76%Reading package lists... 76%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 92%Reading package lists... 92%Reading package lists... 93%Reading package lists... 93%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 98%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  dbus libargon2-0 libcryptsetup12 libnss-systemd libpam-systemd
+  libpython3-stdlib libpython3.6 libpython3.6-minimal libpython3.6-stdlib
+  libsystemd0 ncurses-term networkd-dispatcher openssh-server
+  openssh-sftp-server python3 python3-certifi python3-chardet python3-dbus
+  python3-gi python3-idna python3-minimal python3-pkg-resources
+  python3-requests python3-six python3-urllib3 python3.6 python3.6-minimal
+  ssh-import-id systemd systemd-sysv
+Suggested packages:
+  default-dbus-session-bus | dbus-session-bus iw | wireless-tools molly-guard
+  monkeysphere rssh ssh-askpass ufw python3-doc python3-tk python3-venv
+  python-dbus-doc python3-dbus-dbg python3-setuptools python3-cryptography
+  python3-openssl python3-socks python3.6-venv python3.6-doc binfmt-support
+  systemd-container policykit-1
+The following NEW packages will be installed:
+  dbus libargon2-0 libcryptsetup12 libnss-systemd libpam-systemd
+  libpython3-stdlib ncurses-term networkd-dispatcher openssh-server
+  openssh-sftp-server python3 python3-certifi python3-chardet python3-dbus
+  python3-gi python3-idna python3-minimal python3-pkg-resources
+  python3-requests python3-six python3-urllib3 python3.6 python3.6-minimal ssh
+  ssh-import-id systemd systemd-sysv
+The following packages will be upgraded:
+  libpython3.6 libpython3.6-minimal libpython3.6-stdlib libsystemd0
+4 upgraded, 27 newly installed, 0 to remove and 174 not upgraded.
+Need to get 10.6 MB of archives.
+After this operation, 33.4 MB of additional disk space will be used.
+0% [Working]0% [Connecting to archive.ubuntu.com (91.189.88.142)]                                                     Get:1 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libsystemd0 amd64 237-3ubuntu10.41 [207 kB]
+                                                     0% [1 libsystemd0 12.6 kB/207 kB 6%]1% [1 libsystemd0 70.6 kB/207 kB 34%]                                     2% [Waiting for headers]                        Get:2 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpython3.6 amd64 3.6.9-1~18.04ubuntu1 [1,414 kB]
+2% [2 libpython3.6 4,867 B/1,414 kB 0%]9% [2 libpython3.6 860 kB/1,414 kB 61%]                                       14% [Waiting for headers]                         Get:3 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpython3.6-stdlib amd64 3.6.9-1~18.04ubuntu1 [1,710 kB]
+14% [3 libpython3.6-stdlib 5,630 B/1,710 kB 0%]                                               27% [Waiting for headers]                         Get:4 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpython3.6-minimal amd64 3.6.9-1~18.04ubuntu1 [533 kB]
+27% [4 libpython3.6-minimal 2,891 B/533 kB 1%]                                              32% [Waiting for headers]                         Get:5 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 python3.6-minimal amd64 3.6.9-1~18.04ubuntu1 [1,609 kB]
+32% [5 python3.6-minimal 28.4 kB/1,609 kB 2%]                                             45% [Waiting for headers]                         Get:6 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 python3-minimal amd64 3.6.7-1~18.04 [23.7 kB]
+45% [6 python3-minimal 8,209 B/23.7 kB 35%]                                           45% [Waiting for headers]                         Get:7 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 python3.6 amd64 3.6.9-1~18.04ubuntu1 [203 kB]
+45% [7 python3.6 15.1 kB/203 kB 7%]                                   48% [Working]             Get:8 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpython3-stdlib amd64 3.6.7-1~18.04 [7,240 B]
+48% [8 libpython3-stdlib 6,538 B/7,240 B 90%]                                             48% [Waiting for headers]                         Get:9 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 python3 amd64 3.6.7-1~18.04 [47.2 kB]
+48% [9 python3 17.0 kB/47.2 kB 36%]                                   49% [Waiting for headers]                         Get:10 http://archive.ubuntu.com/ubuntu bionic/main amd64 libargon2-0 amd64 0~20161029-1.1 [19.9 kB]
+49% [10 libargon2-0 8,697 B/19.9 kB 44%]                                        50% [Working]             Get:11 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libcryptsetup12 amd64 2:2.0.2-1ubuntu1.1 [134 kB]
+50% [11 libcryptsetup12 13.8 kB/134 kB 10%]                                           52% [Waiting for headers]                         Get:12 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 systemd amd64 237-3ubuntu10.41 [2,914 kB]
+52% [12 systemd 16.2 kB/2,914 kB 1%]                                    74% [Waiting for headers]                         Get:13 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 systemd-sysv amd64 237-3ubuntu10.41 [14.7 kB]
+74% [13 systemd-sysv 0 B/14.7 kB 0%]                                    75% [Waiting for headers]                         Get:14 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 openssh-sftp-server amd64 1:7.6p1-4ubuntu0.3 [45.6 kB]
+75% [14 openssh-sftp-server 8,192 B/45.6 kB 18%]                                                76% [Waiting for headers]                         Get:15 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 openssh-server amd64 1:7.6p1-4ubuntu0.3 [333 kB]
+76% [15 openssh-server 13.7 kB/333 kB 4%]                                         79% [Waiting for headers]                         Get:16 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 ssh all 1:7.6p1-4ubuntu0.3 [5,204 B]
+79% [16 ssh 4,096 B/5,204 B 79%]                                Get:17 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 dbus amd64 1.12.2-1ubuntu1.1 [150 kB]
+80% [17 dbus 34.6 kB/150 kB 23%]                                82% [Waiting for headers]                         Get:18 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libnss-systemd amd64 237-3ubuntu10.41 [105 kB]
+82% [18 libnss-systemd 13.3 kB/105 kB 13%]                                          83% [Working]             Get:19 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpam-systemd amd64 237-3ubuntu10.41 [107 kB]
+83% [19 libpam-systemd 21.4 kB/107 kB 20%]                                          85% [Waiting for headers]                         Get:20 http://archive.ubuntu.com/ubuntu bionic/main amd64 python3-dbus amd64 1.2.6-1 [89.9 kB]
+85% [20 python3-dbus 21.0 kB/89.9 kB 23%]                                         86% [Waiting for headers]                         Get:21 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 python3-gi amd64 3.26.1-2ubuntu1 [153 kB]
+86% [21 python3-gi 40.9 kB/153 kB 27%]                                      88% [Waiting for headers]                         Get:22 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 networkd-dispatcher all 1.7-0ubuntu3.3 [13.3 kB]
+88% [Waiting for headers]                         Get:23 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 ncurses-term all 6.1-1ubuntu1.18.04 [248 kB]
+88% [23 ncurses-term 0 B/248 kB 0%]                                   91% [Waiting for headers]                         Get:24 http://archive.ubuntu.com/ubuntu bionic/main amd64 python3-certifi all 2018.1.18-2 [144 kB]
+91% [24 python3-certifi 22.0 kB/144 kB 15%]                                           93% [Waiting for headers]                         Get:25 http://archive.ubuntu.com/ubuntu bionic/main amd64 python3-pkg-resources all 39.0.1-2 [98.8 kB]
+93% [25 python3-pkg-resources 6,552 B/98.8 kB 7%]                                                 94% [Waiting for headers]                         Get:26 http://archive.ubuntu.com/ubuntu bionic/main amd64 python3-chardet all 3.0.4-1 [80.3 kB]
+94% [26 python3-chardet 17.0 kB/80.3 kB 21%]                                            95% [Working]             Get:27 http://archive.ubuntu.com/ubuntu bionic/main amd64 python3-idna all 2.6-1 [32.5 kB]
+95% [27 python3-idna 20.1 kB/32.5 kB 62%]                                         96% [Waiting for headers]                         Get:28 http://archive.ubuntu.com/ubuntu bionic/main amd64 python3-six all 1.11.0-2 [11.4 kB]
+96% [28 python3-six 11.4 kB/11.4 kB 100%]                                         97% [Waiting for headers]                         Get:29 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 python3-urllib3 all 1.22-1ubuntu0.18.04.1 [86.0 kB]
+97% [29 python3-urllib3 23.1 kB/86.0 kB 27%]                                            98% [Waiting for headers]                         Get:30 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 python3-requests all 2.18.4-2ubuntu0.1 [58.3 kB]
+98% [30 python3-requests 32.8 kB/58.3 kB 56%]                                             99% [Waiting for headers]                         Get:31 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 ssh-import-id all 5.7-0ubuntu1.1 [10.9 kB]
+99% [31 ssh-import-id 10.9 kB/10.9 kB 100%]                                           100% [Working]              Fetched 10.6 MB in 4s (2,763 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 128400 files and directories currently installed.)
+Preparing to unpack .../libsystemd0_237-3ubuntu10.41_amd64.deb ...
+Unpacking libsystemd0:amd64 (237-3ubuntu10.41) over (237-3ubuntu10.24) ...
+Setting up libsystemd0:amd64 (237-3ubuntu10.41) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 128400 files and directories currently installed.)
+Preparing to unpack .../libpython3.6_3.6.9-1~18.04ubuntu1_amd64.deb ...
+Unpacking libpython3.6:amd64 (3.6.9-1~18.04ubuntu1) over (3.6.8-1~18.04.1) ...
+Preparing to unpack .../libpython3.6-stdlib_3.6.9-1~18.04ubuntu1_amd64.deb ...
+find: ‘/usr/lib/python3’: No such file or directory
+Unpacking libpython3.6-stdlib:amd64 (3.6.9-1~18.04ubuntu1) over (3.6.8-1~18.04.1) ...
+Preparing to unpack .../libpython3.6-minimal_3.6.9-1~18.04ubuntu1_amd64.deb ...
+find: ‘/usr/lib/python3’: No such file or directory
+Unpacking libpython3.6-minimal:amd64 (3.6.9-1~18.04ubuntu1) over (3.6.8-1~18.04.1) ...
+Selecting previously unselected package python3.6-minimal.
+Preparing to unpack .../python3.6-minimal_3.6.9-1~18.04ubuntu1_amd64.deb ...
+Unpacking python3.6-minimal (3.6.9-1~18.04ubuntu1) ...
+Setting up libpython3.6-minimal:amd64 (3.6.9-1~18.04ubuntu1) ...
+Setting up python3.6-minimal (3.6.9-1~18.04ubuntu1) ...
+Selecting previously unselected package python3-minimal.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 128410 files and directories currently installed.)
+Preparing to unpack .../python3-minimal_3.6.7-1~18.04_amd64.deb ...
+Unpacking python3-minimal (3.6.7-1~18.04) ...
+Selecting previously unselected package python3.6.
+Preparing to unpack .../python3.6_3.6.9-1~18.04ubuntu1_amd64.deb ...
+Unpacking python3.6 (3.6.9-1~18.04ubuntu1) ...
+Selecting previously unselected package libpython3-stdlib:amd64.
+Preparing to unpack .../libpython3-stdlib_3.6.7-1~18.04_amd64.deb ...
+Unpacking libpython3-stdlib:amd64 (3.6.7-1~18.04) ...
+Setting up python3-minimal (3.6.7-1~18.04) ...
+Selecting previously unselected package python3.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 128458 files and directories currently installed.)
+Preparing to unpack .../python3_3.6.7-1~18.04_amd64.deb ...
+Unpacking python3 (3.6.7-1~18.04) ...
+Selecting previously unselected package libargon2-0:amd64.
+Preparing to unpack .../libargon2-0_0~20161029-1.1_amd64.deb ...
+Unpacking libargon2-0:amd64 (0~20161029-1.1) ...
+Selecting previously unselected package libcryptsetup12:amd64.
+Preparing to unpack .../libcryptsetup12_2%3a2.0.2-1ubuntu1.1_amd64.deb ...
+Unpacking libcryptsetup12:amd64 (2:2.0.2-1ubuntu1.1) ...
+Setting up libargon2-0:amd64 (0~20161029-1.1) ...
+Setting up libcryptsetup12:amd64 (2:2.0.2-1ubuntu1.1) ...
+Selecting previously unselected package systemd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 128501 files and directories currently installed.)
+Preparing to unpack .../systemd_237-3ubuntu10.41_amd64.deb ...
+Unpacking systemd (237-3ubuntu10.41) ...
+Setting up systemd (237-3ubuntu10.41) ...
+Created symlink /etc/systemd/system/getty.target.wants/getty@tty1.service → /lib/systemd/system/getty@.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/remote-fs.target → /lib/systemd/system/remote-fs.target.
+Created symlink /etc/systemd/system/sysinit.target.wants/systemd-timesyncd.service → /lib/systemd/system/systemd-timesyncd.service.
+Created symlink /etc/systemd/system/dbus-org.freedesktop.resolve1.service → /lib/systemd/system/systemd-resolved.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/systemd-resolved.service → /lib/systemd/system/systemd-resolved.service.
+ln: failed to create symbolic link '/etc/resolv.conf': Device or resource busy
+Created symlink /etc/systemd/system/multi-user.target.wants/ondemand.service → /lib/systemd/system/ondemand.service.
+Initializing machine ID from random generator.
+Selecting previously unselected package systemd-sysv.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 129201 files and directories currently installed.)
+Preparing to unpack .../00-systemd-sysv_237-3ubuntu10.41_amd64.deb ...
+Unpacking systemd-sysv (237-3ubuntu10.41) ...
+Selecting previously unselected package openssh-sftp-server.
+Preparing to unpack .../01-openssh-sftp-server_1%3a7.6p1-4ubuntu0.3_amd64.deb ...
+Unpacking openssh-sftp-server (1:7.6p1-4ubuntu0.3) ...
+Selecting previously unselected package openssh-server.
+Preparing to unpack .../02-openssh-server_1%3a7.6p1-4ubuntu0.3_amd64.deb ...
+Unpacking openssh-server (1:7.6p1-4ubuntu0.3) ...
+Selecting previously unselected package ssh.
+Preparing to unpack .../03-ssh_1%3a7.6p1-4ubuntu0.3_all.deb ...
+Unpacking ssh (1:7.6p1-4ubuntu0.3) ...
+Selecting previously unselected package dbus.
+Preparing to unpack .../04-dbus_1.12.2-1ubuntu1.1_amd64.deb ...
+Unpacking dbus (1.12.2-1ubuntu1.1) ...
+Selecting previously unselected package libnss-systemd:amd64.
+Preparing to unpack .../05-libnss-systemd_237-3ubuntu10.41_amd64.deb ...
+Unpacking libnss-systemd:amd64 (237-3ubuntu10.41) ...
+Selecting previously unselected package libpam-systemd:amd64.
+Preparing to unpack .../06-libpam-systemd_237-3ubuntu10.41_amd64.deb ...
+Unpacking libpam-systemd:amd64 (237-3ubuntu10.41) ...
+Selecting previously unselected package python3-dbus.
+Preparing to unpack .../07-python3-dbus_1.2.6-1_amd64.deb ...
+Unpacking python3-dbus (1.2.6-1) ...
+Selecting previously unselected package python3-gi.
+Preparing to unpack .../08-python3-gi_3.26.1-2ubuntu1_amd64.deb ...
+Unpacking python3-gi (3.26.1-2ubuntu1) ...
+Selecting previously unselected package networkd-dispatcher.
+Preparing to unpack .../09-networkd-dispatcher_1.7-0ubuntu3.3_all.deb ...
+Unpacking networkd-dispatcher (1.7-0ubuntu3.3) ...
+Selecting previously unselected package ncurses-term.
+Preparing to unpack .../10-ncurses-term_6.1-1ubuntu1.18.04_all.deb ...
+Unpacking ncurses-term (6.1-1ubuntu1.18.04) ...
+Selecting previously unselected package python3-certifi.
+Preparing to unpack .../11-python3-certifi_2018.1.18-2_all.deb ...
+Unpacking python3-certifi (2018.1.18-2) ...
+Selecting previously unselected package python3-pkg-resources.
+Preparing to unpack .../12-python3-pkg-resources_39.0.1-2_all.deb ...
+Unpacking python3-pkg-resources (39.0.1-2) ...
+Selecting previously unselected package python3-chardet.
+Preparing to unpack .../13-python3-chardet_3.0.4-1_all.deb ...
+Unpacking python3-chardet (3.0.4-1) ...
+Selecting previously unselected package python3-idna.
+Preparing to unpack .../14-python3-idna_2.6-1_all.deb ...
+Unpacking python3-idna (2.6-1) ...
+Selecting previously unselected package python3-six.
+Preparing to unpack .../15-python3-six_1.11.0-2_all.deb ...
+Unpacking python3-six (1.11.0-2) ...
+Selecting previously unselected package python3-urllib3.
+Preparing to unpack .../16-python3-urllib3_1.22-1ubuntu0.18.04.1_all.deb ...
+Unpacking python3-urllib3 (1.22-1ubuntu0.18.04.1) ...
+Selecting previously unselected package python3-requests.
+Preparing to unpack .../17-python3-requests_2.18.4-2ubuntu0.1_all.deb ...
+Unpacking python3-requests (2.18.4-2ubuntu0.1) ...
+Selecting previously unselected package ssh-import-id.
+Preparing to unpack .../18-ssh-import-id_5.7-0ubuntu1.1_all.deb ...
+Unpacking ssh-import-id (5.7-0ubuntu1.1) ...
+Setting up libpython3.6-stdlib:amd64 (3.6.9-1~18.04ubuntu1) ...
+Setting up ncurses-term (6.1-1ubuntu1.18.04) ...
+Setting up libnss-systemd:amd64 (237-3ubuntu10.41) ...
+First installation detected...
+Checking NSS setup...
+Setting up python3.6 (3.6.9-1~18.04ubuntu1) ...
+Processing triggers for mime-support (3.60ubuntu1) ...
+Setting up systemd-sysv (237-3ubuntu10.41) ...
+Setting up openssh-sftp-server (1:7.6p1-4ubuntu0.3) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Processing triggers for systemd (237-3ubuntu10.41) ...
+Setting up dbus (1.12.2-1ubuntu1.1) ...
+Setting up libpython3.6:amd64 (3.6.9-1~18.04ubuntu1) ...
+Setting up libpython3-stdlib:amd64 (3.6.7-1~18.04) ...
+Setting up libpam-systemd:amd64 (237-3ubuntu10.41) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76.)
+debconf: falling back to frontend: Readline
+Setting up python3 (3.6.7-1~18.04) ...
+running python rtupdate hooks for python3.6...
+running python post-rtupdate hooks for python3.6...
+Setting up python3-idna (2.6-1) ...
+Setting up python3-six (1.11.0-2) ...
+Setting up python3-certifi (2018.1.18-2) ...
+Setting up python3-pkg-resources (39.0.1-2) ...
+Setting up python3-gi (3.26.1-2ubuntu1) ...
+Setting up openssh-server (1:7.6p1-4ubuntu0.3) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/ssh/sshd_config with new version
+Creating SSH2 RSA key; this may take some time ...
+2048 SHA256:O+iSCjUoRnGOO+FyB8BMPujnxr+VHQiMz74uVe+5m44 root@0d8328bfbbeb (RSA)
+Creating SSH2 ECDSA key; this may take some time ...
+256 SHA256:AQPkC11NYLqtCjAYx8gTk285FowSP5gF4URu36i6Sdk root@0d8328bfbbeb (ECDSA)
+Creating SSH2 ED25519 key; this may take some time ...
+256 SHA256:6JW/Nim4oJJZlsX9iuIpgZoz3LtnSVngFDRaPcCgm3E root@0d8328bfbbeb (ED25519)
+Created symlink /etc/systemd/system/sshd.service → /lib/systemd/system/ssh.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ssh.service → /lib/systemd/system/ssh.service.
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of start.
+Setting up python3-chardet (3.0.4-1) ...
+Setting up python3-urllib3 (1.22-1ubuntu0.18.04.1) ...
+Setting up python3-dbus (1.2.6-1) ...
+Setting up ssh (1:7.6p1-4ubuntu0.3) ...
+Setting up python3-requests (2.18.4-2ubuntu0.1) ...
+Setting up ssh-import-id (5.7-0ubuntu1.1) ...
+Setting up networkd-dispatcher (1.7-0ubuntu3.3) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/networkd-dispatcher.service → /lib/systemd/system/networkd-dispatcher.service.
+Processing triggers for systemd (237-3ubuntu10.41) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 64%Reading package lists... 66%Reading package lists... 66%Reading package lists... 67%Reading package lists... 67%Reading package lists... 75%Reading package lists... 75%Reading package lists... 76%Reading package lists... 76%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+openssh-server is already the newest version (1:7.6p1-4ubuntu0.3).
+openssh-server set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 174 not upgraded.
+ * Starting OpenBSD Secure Shell server sshd
+   ...done.
+
+----
+end time: 2020-05-29 02:29:51(UTC)
+25 chunks with matched keywords or errors
+----
+execute_reply_status: ok

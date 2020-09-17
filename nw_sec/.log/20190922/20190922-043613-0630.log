@@ -1,0 +1,58 @@
+{"lc_cell_meme": {"current": "20b55366-8005-11e9-a4fd-02420a01012b"}}
+----
+pd.set_option("display.max_columns", 70)
+pd.set_option("display.max_rows", 300)
+
+for n in n_list:
+    data=np.zeros((n-1,n-1))
+    for i in range(1,n):
+        for j in range(1,n):
+            data[i-1][j-1] = int((i**j) % n )
+    df = pd.DataFrame(data, dtype='int')
+    df = df.rename(columns=lambda s:   'a**'+ str(s+1), index=lambda s: 'a=' +str(s+1) )
+    df
+    print('-----------------------')
+    print('mod('+str(n)+')')
+    display(df)
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20190922/20190922-043613-0630.log
+notebook_path: textbook/nw_sec/12-security-fermat.ipynb
+lc_notebook_meme: a8ff14d2-7f56-11e9-a4fd-02420a01012b
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2019-09-22 04:36:13(UTC)
+----
+-----------------------
+mod(3)
+-----------------------
+mod(5)
+-----------------------
+mod(7)
+-----------------------
+mod(11)
+-----------------------
+mod(13)
+-----------------------
+mod(17)
+-----------------------
+mod(19)
+-----------------------
+mod(23)
+-----------------------
+mod(29)
+
+----
+end time: 2019-09-22 04:36:13(UTC)
+0 chunks with matched keywords or errors
+----
+result: /home/yoko69d621/textbook/nw_sec/.log/20190922/20190922-043613-0630-0.pkl
+result: /home/yoko69d621/textbook/nw_sec/.log/20190922/20190922-043613-0630-1.pkl
+result: /home/yoko69d621/textbook/nw_sec/.log/20190922/20190922-043613-0630-2.pkl
+result: /home/yoko69d621/textbook/nw_sec/.log/20190922/20190922-043613-0630-3.pkl
+result: /home/yoko69d621/textbook/nw_sec/.log/20190922/20190922-043613-0630-4.pkl
+result: /home/yoko69d621/textbook/nw_sec/.log/20190922/20190922-043613-0630-5.pkl
+result: /home/yoko69d621/textbook/nw_sec/.log/20190922/20190922-043613-0630-6.pkl
+result: /home/yoko69d621/textbook/nw_sec/.log/20190922/20190922-043613-0630-7.pkl
+result: /home/yoko69d621/textbook/nw_sec/.log/20190922/20190922-043613-0630-8.pkl
+execute_reply_status: ok

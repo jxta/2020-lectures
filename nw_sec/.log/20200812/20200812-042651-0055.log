@@ -1,0 +1,31 @@
+{"lc_cell_meme": {"current": "762cc7d2-9f06-11e9-8556-02420a010127"}}
+----
+%env OS_AUTH_URL=http://133.8.140.97:5000/v3
+%env OS_PROJECT_NAME=students
+%env OS_USERNAME=jxta
+%env OS_PASSWORD=Gunma-u#
+%env OS_PROJECT_DOMAIN_NAME=default
+%env OS_USER_DOMAIN_NAME=default
+%env NOVA_END_POINT=http://133.8.140.97:8774/v2.1/522dde6eaa964f189ac4d1d58eb96ce5
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200812/20200812-042651-0055.log
+notebook_path: textbook/nw_sec/14-cloud-computing.ipynb
+lc_notebook_meme: 762cc0de-9f06-11e9-8556-02420a010127
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-08-12 04:26:51(UTC)
+----
+env: OS_AUTH_URL=http://133.8.140.97:5000/v3
+env: OS_PROJECT_NAME=students
+env: OS_USERNAME=jxta
+env: OS_PASSWORD=Gunma-u#
+env: OS_PROJECT_DOMAIN_NAME=default
+env: OS_USER_DOMAIN_NAME=default
+env: NOVA_END_POINT=http://133.8.140.97:8774/v2.1/522dde6eaa964f189ac4d1d58eb96ce5
+
+----
+end time: 2020-08-12 04:26:51(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

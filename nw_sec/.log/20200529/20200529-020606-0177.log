@@ -1,0 +1,91 @@
+{"lc_cell_meme": {"current": "d9dbb862-6be2-11e9-96dc-02420a00000b"}}
+----
+!lsof -i -P
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200529/20200529-020606-0177.log
+notebook_path: textbook/nw_sec/5-linux-security.ipynb
+lc_notebook_meme: d9dbb4de-6be2-11e9-96dc-02420a00000b
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-05-29 02:06:06(UTC)
+----
+COMMAND  PID       USER   FD   TYPE   DEVICE SIZE/OFF NODE NAME
+python    32 yoko69d621    5u  IPv4   883834      0t0  TCP *:8888 (LISTEN)
+python    32 yoko69d621    9u  IPv4 65699607      0t0  TCP 0d8328bfbbeb:8888->10.1.0.7:38792 (ESTABLISHED)
+python    32 yoko69d621   11u  IPv4 86296969      0t0  TCP 0d8328bfbbeb:8888->10.1.0.7:33714 (ESTABLISHED)
+python    32 yoko69d621   12u  IPv4 41422321      0t0  TCP 0d8328bfbbeb:8888->10.1.0.7:34990 (ESTABLISHED)
+python    32 yoko69d621   46u  IPv4 86279953      0t0  TCP localhost:54336->localhost:32998 (ESTABLISHED)
+python    32 yoko69d621   47u  IPv4 86279965      0t0  TCP localhost:39372->localhost:48037 (ESTABLISHED)
+python    32 yoko69d621   51u  IPv4 86279957      0t0  TCP localhost:42240->localhost:46376 (ESTABLISHED)
+python    32 yoko69d621   62u  IPv4 73104001      0t0  TCP localhost:49820->localhost:42756 (ESTABLISHED)
+python    32 yoko69d621   63u  IPv4 73104004      0t0  TCP localhost:42340->localhost:48160 (ESTABLISHED)
+python    32 yoko69d621   66u  IPv4 86279966      0t0  TCP localhost:42320->localhost:46376 (ESTABLISHED)
+python    32 yoko69d621   67u  IPv4 73104003      0t0  TCP localhost:43740->localhost:60966 (ESTABLISHED)
+python    32 yoko69d621   69u  IPv4 73104005      0t0  TCP localhost:49912->localhost:42756 (ESTABLISHED)
+python    32 yoko69d621   71u  IPv4 73104006      0t0  TCP localhost:43814->localhost:60966 (ESTABLISHED)
+python    32 yoko69d621   73u  IPv4 73104007      0t0  TCP localhost:50580->localhost:44711 (ESTABLISHED)
+python    32 yoko69d621  195u  IPv4 86279967      0t0  TCP localhost:54428->localhost:32998 (ESTABLISHED)
+python    32 yoko69d621  221u  IPv4 86279968      0t0  TCP localhost:47028->localhost:34051 (ESTABLISHED)
+python  4106 yoko69d621   12u  IPv4 73113846      0t0  TCP localhost:48160 (LISTEN)
+python  4106 yoko69d621   14u  IPv4 73113848      0t0  TCP localhost:44711 (LISTEN)
+python  4106 yoko69d621   16u  IPv4 73113850      0t0  TCP localhost:42756 (LISTEN)
+python  4106 yoko69d621   18u  IPv4 73113852      0t0  TCP localhost:60966 (LISTEN)
+python  4106 yoko69d621   23u  IPv4 73113856      0t0  TCP localhost:38437 (LISTEN)
+python  4106 yoko69d621   31u  IPv4 73089881      0t0  TCP localhost:57898 (LISTEN)
+python  4106 yoko69d621   50u  IPv4 73096791      0t0  TCP localhost:42756->localhost:49820 (ESTABLISHED)
+python  4106 yoko69d621   51u  IPv4 73125175      0t0  TCP localhost:48160->localhost:42340 (ESTABLISHED)
+python  4106 yoko69d621   52u  IPv4 73096793      0t0  TCP localhost:60966->localhost:43740 (ESTABLISHED)
+python  4106 yoko69d621   53u  IPv4 73086686      0t0  TCP localhost:41276->localhost:54419 (ESTABLISHED)
+python  4106 yoko69d621   54u  IPv4 73086687      0t0  TCP localhost:51566->localhost:45177 (ESTABLISHED)
+python  4106 yoko69d621   55u  IPv4 73086688      0t0  TCP localhost:50386->localhost:51046 (ESTABLISHED)
+python  4106 yoko69d621   56u  IPv4 73086689      0t0  TCP localhost:60726->localhost:56002 (ESTABLISHED)
+python  4106 yoko69d621   57u  IPv4 73086690      0t0  TCP localhost:46068->localhost:49486 (ESTABLISHED)
+python  4106 yoko69d621   59u  IPv4 73125176      0t0  TCP localhost:42756->localhost:49912 (ESTABLISHED)
+python  4106 yoko69d621   60u  IPv4 73125177      0t0  TCP localhost:60966->localhost:43814 (ESTABLISHED)
+python  4106 yoko69d621   61u  IPv4 73125178      0t0  TCP localhost:44711->localhost:50580 (ESTABLISHED)
+python  4118 yoko69d621   12u  IPv4 73123970      0t0  TCP localhost:51046 (LISTEN)
+python  4118 yoko69d621   14u  IPv4 73123972      0t0  TCP localhost:54419 (LISTEN)
+python  4118 yoko69d621   16u  IPv4 73123974      0t0  TCP localhost:45177 (LISTEN)
+python  4118 yoko69d621   18u  IPv4 73123976      0t0  TCP localhost:49486 (LISTEN)
+python  4118 yoko69d621   23u  IPv4 73123980      0t0  TCP localhost:45251 (LISTEN)
+python  4118 yoko69d621   31u  IPv4 73116925      0t0  TCP localhost:56002 (LISTEN)
+python  4118 yoko69d621   36u  IPv4 73116926      0t0  TCP localhost:54419->localhost:41276 (ESTABLISHED)
+python  4118 yoko69d621   38u  IPv4 73116927      0t0  TCP localhost:45177->localhost:51566 (ESTABLISHED)
+python  4118 yoko69d621   39u  IPv4 73116928      0t0  TCP localhost:51046->localhost:50386 (ESTABLISHED)
+python  4118 yoko69d621   41u  IPv4 73122031      0t0  TCP localhost:56002->localhost:60726 (ESTABLISHED)
+python  4118 yoko69d621   42u  IPv4 73110464      0t0  TCP localhost:49486->localhost:46068 (ESTABLISHED)
+python  5980 yoko69d621   12u  IPv4 86298871      0t0  TCP localhost:48037 (LISTEN)
+python  5980 yoko69d621   14u  IPv4 86298873      0t0  TCP localhost:34051 (LISTEN)
+python  5980 yoko69d621   16u  IPv4 86298875      0t0  TCP localhost:46376 (LISTEN)
+python  5980 yoko69d621   18u  IPv4 86298877      0t0  TCP localhost:32998 (LISTEN)
+python  5980 yoko69d621   23u  IPv4 86298881      0t0  TCP localhost:39699 (LISTEN)
+python  5980 yoko69d621   31u  IPv4 86303069      0t0  TCP localhost:57896 (LISTEN)
+python  5980 yoko69d621   50u  IPv4 86303113      0t0  TCP localhost:32998->localhost:54336 (ESTABLISHED)
+python  5980 yoko69d621   51u  IPv4 86303116      0t0  TCP localhost:48037->localhost:39372 (ESTABLISHED)
+python  5980 yoko69d621   52u  IPv4 86303115      0t0  TCP localhost:46376->localhost:42240 (ESTABLISHED)
+python  5980 yoko69d621   53u  IPv4 86311978      0t0  TCP localhost:40836->localhost:37533 (ESTABLISHED)
+python  5980 yoko69d621   54u  IPv4 86296126      0t0  TCP localhost:42694->localhost:33268 (ESTABLISHED)
+python  5980 yoko69d621   55u  IPv4 86296127      0t0  TCP localhost:41988->localhost:58487 (ESTABLISHED)
+python  5980 yoko69d621   56u  IPv4 86296128      0t0  TCP localhost:40782->localhost:33811 (ESTABLISHED)
+python  5980 yoko69d621   57u  IPv4 86296129      0t0  TCP localhost:58746->localhost:57337 (ESTABLISHED)
+python  5980 yoko69d621   59u  IPv4 86303117      0t0  TCP localhost:46376->localhost:42320 (ESTABLISHED)
+python  5980 yoko69d621   60u  IPv4 86303118      0t0  TCP localhost:32998->localhost:54428 (ESTABLISHED)
+python  5980 yoko69d621   61u  IPv4 86303119      0t0  TCP localhost:34051->localhost:47028 (ESTABLISHED)
+python  5992 yoko69d621   12u  IPv4 86297912      0t0  TCP localhost:33268 (LISTEN)
+python  5992 yoko69d621   14u  IPv4 86297914      0t0  TCP localhost:57337 (LISTEN)
+python  5992 yoko69d621   16u  IPv4 86297916      0t0  TCP localhost:37533 (LISTEN)
+python  5992 yoko69d621   18u  IPv4 86297918      0t0  TCP localhost:33811 (LISTEN)
+python  5992 yoko69d621   23u  IPv4 86297922      0t0  TCP localhost:36298 (LISTEN)
+python  5992 yoko69d621   31u  IPv4 86275045      0t0  TCP localhost:58487 (LISTEN)
+python  5992 yoko69d621   37u  IPv4 86311979      0t0  TCP localhost:37533->localhost:40836 (ESTABLISHED)
+python  5992 yoko69d621   38u  IPv4 86311980      0t0  TCP localhost:33268->localhost:42694 (ESTABLISHED)
+python  5992 yoko69d621   39u  IPv4 86294998      0t0  TCP localhost:58487->localhost:41988 (ESTABLISHED)
+python  5992 yoko69d621   40u  IPv4 86311981      0t0  TCP localhost:33811->localhost:40782 (ESTABLISHED)
+python  5992 yoko69d621   42u  IPv4 86306072      0t0  TCP localhost:57337->localhost:58746 (ESTABLISHED)
+
+----
+end time: 2020-05-29 02:06:08(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

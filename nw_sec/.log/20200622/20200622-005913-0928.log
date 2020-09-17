@@ -1,0 +1,43 @@
+{"lc_cell_meme": {"current": "1cadfcfe-8736-11e9-8556-02420a010127"}}
+----
+!whois -h whois.nic.ad.jp 157.1.207.3
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200622/20200622-005913-0928.log
+notebook_path: textbook/nw_sec/8-linux-network-wan.ipynb
+lc_notebook_meme: 1cadf7d6-8736-11e9-8556-02420a010127
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-06-22 00:59:13(UTC)
+----
+[ JPNIC database provides information regarding IP address and ASN. Its use   ]
+[ is restricted to network administration purposes. For further information,  ]
+[ use 'whois -h whois.nic.ad.jp help'. To only display English output,        ]
+[ add '/e' at the end of command, e.g. 'whois -h whois.nic.ad.jp xxx/e'.      ]
+
+Network Information:            
+a. [Network Number]             157.1.0.0/16
+b. [Network Name]               NII-NET
+g. [Organization]               Research Organization of Information and Systems, National Institute of Informatics
+m. [Administrative Contact]     JP00038302
+n. [Technical Contact]          JP00038302
+p. [Nameserver]                 dns1.nii.ac.jp
+p. [Nameserver]                 dns2.nii.ac.jp
+p. [Nameserver]                 dns-x.sinet.ad.jp
+[Assigned Date]                 1991/12/10
+[Return Date]                   
+[Last Update]                   2014/11/06 17:17:05(JST)
+                                
+Less Specific Info.
+----------
+No match!!
+
+More Specific Info.
+----------
+No match!!
+
+----
+end time: 2020-06-22 00:59:16(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

@@ -1,0 +1,19 @@
+{"lc_cell_meme": {"current": "bf328f4a-4193-11ea-86a9-02420a01000c"}}
+----
+calc_print()
+----
+path: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-061606-0492.log
+notebook_path: tokyo-u-data-science/ds_samplefiles/Chapter1.ipynb
+lc_notebook_meme: bf3221cc-4193-11ea-86a9-02420a01000c
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-01-28 06:16:06(UTC)
+----
+printのサンプル関数
+
+----
+end time: 2020-01-28 06:16:06(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

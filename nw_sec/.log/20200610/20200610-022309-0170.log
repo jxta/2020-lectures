@@ -1,0 +1,73 @@
+{"lc_cell_meme": {"current": "49ad2272-76e5-11e9-96dc-02420a00000b"}}
+----
+!sudo apt-get install dnsutils -y
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200610/20200610-022309-0170.log
+notebook_path: textbook/nw_sec/6-linux-network-overview.ipynb
+lc_notebook_meme: 49ad1d90-76e5-11e9-96dc-02420a00000b
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-06-10 02:23:09(UTC)
+----
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 51%Reading package lists... 66%Reading package lists... 66%Reading package lists... 67%Reading package lists... 67%Reading package lists... 75%Reading package lists... 75%Reading package lists... 76%Reading package lists... 76%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 64%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  bind9-host libbind9-160 libdns1100 libirs160 libisc169 libisccc160
+  libisccfg160 liblwres160
+Suggested packages:
+  rblcheck
+The following packages will be upgraded:
+  bind9-host dnsutils libbind9-160 libdns1100 libirs160 libisc169 libisccc160
+  libisccfg160 liblwres160
+9 upgraded, 0 newly installed, 0 to remove and 166 not upgraded.
+Need to get 1,551 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+0% [Working]            Get:1 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libirs160 amd64 1:9.11.3+dfsg-1ubuntu1.12 [19.1 kB]
+1% [1 libirs160 12.6 kB/19.1 kB 66%]                                    3% [Working]            Get:2 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 bind9-host amd64 1:9.11.3+dfsg-1ubuntu1.12 [53.4 kB]
+4% [2 bind9-host 7,447 B/53.4 kB 14%]                                     Get:3 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 dnsutils amd64 1:9.11.3+dfsg-1ubuntu1.12 [145 kB]
+                                     8% [3 dnsutils 104 B/145 kB 0%]                               Get:4 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libbind9-160 amd64 1:9.11.3+dfsg-1ubuntu1.12 [27.6 kB]
+                               Get:5 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libisccfg160 amd64 1:9.11.3+dfsg-1ubuntu1.12 [48.4 kB]
+22% [5 libisccfg160 4,310 B/48.4 kB 9%]                                       26% [Waiting for headers]                         Get:6 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libisccc160 amd64 1:9.11.3+dfsg-1ubuntu1.12 [17.9 kB]
+26% [6 libisccc160 2,001 B/17.9 kB 11%]                                       Get:7 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libdns1100 amd64 1:9.11.3+dfsg-1ubuntu1.12 [967 kB]
+                                       30% [7 libdns1100 1,870 B/967 kB 0%]                                    82% [Waiting for headers]                         Get:8 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libisc169 amd64 1:9.11.3+dfsg-1ubuntu1.12 [238 kB]
+82% [8 libisc169 3,567 B/238 kB 2%]                                   96% [Waiting for headers]                         Get:9 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 liblwres160 amd64 1:9.11.3+dfsg-1ubuntu1.12 [34.6 kB]
+96% [9 liblwres160 130 B/34.6 kB 0%]                                    100% [Working]              Fetched 1,551 kB in 2s (731 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 132387 files and directories currently installed.)
+Preparing to unpack .../0-libirs160_1%3a9.11.3+dfsg-1ubuntu1.12_amd64.deb ...
+Unpacking libirs160:amd64 (1:9.11.3+dfsg-1ubuntu1.12) over (1:9.11.3+dfsg-1ubuntu1.9) ...
+Preparing to unpack .../1-bind9-host_1%3a9.11.3+dfsg-1ubuntu1.12_amd64.deb ...
+Unpacking bind9-host (1:9.11.3+dfsg-1ubuntu1.12) over (1:9.11.3+dfsg-1ubuntu1.9) ...
+Preparing to unpack .../2-dnsutils_1%3a9.11.3+dfsg-1ubuntu1.12_amd64.deb ...
+Unpacking dnsutils (1:9.11.3+dfsg-1ubuntu1.12) over (1:9.11.3+dfsg-1ubuntu1.9) ...
+Preparing to unpack .../3-libbind9-160_1%3a9.11.3+dfsg-1ubuntu1.12_amd64.deb ...
+Unpacking libbind9-160:amd64 (1:9.11.3+dfsg-1ubuntu1.12) over (1:9.11.3+dfsg-1ubuntu1.9) ...
+Preparing to unpack .../4-libisccfg160_1%3a9.11.3+dfsg-1ubuntu1.12_amd64.deb ...
+Unpacking libisccfg160:amd64 (1:9.11.3+dfsg-1ubuntu1.12) over (1:9.11.3+dfsg-1ubuntu1.9) ...
+Preparing to unpack .../5-libisccc160_1%3a9.11.3+dfsg-1ubuntu1.12_amd64.deb ...
+Unpacking libisccc160:amd64 (1:9.11.3+dfsg-1ubuntu1.12) over (1:9.11.3+dfsg-1ubuntu1.9) ...
+Preparing to unpack .../6-libdns1100_1%3a9.11.3+dfsg-1ubuntu1.12_amd64.deb ...
+Unpacking libdns1100:amd64 (1:9.11.3+dfsg-1ubuntu1.12) over (1:9.11.3+dfsg-1ubuntu1.9) ...
+Preparing to unpack .../7-libisc169_1%3a9.11.3+dfsg-1ubuntu1.12_amd64.deb ...
+Unpacking libisc169:amd64 (1:9.11.3+dfsg-1ubuntu1.12) over (1:9.11.3+dfsg-1ubuntu1.9) ...
+Preparing to unpack .../8-liblwres160_1%3a9.11.3+dfsg-1ubuntu1.12_amd64.deb ...
+Unpacking liblwres160:amd64 (1:9.11.3+dfsg-1ubuntu1.12) over (1:9.11.3+dfsg-1ubuntu1.9) ...
+Setting up libisc169:amd64 (1:9.11.3+dfsg-1ubuntu1.12) ...
+Setting up libisccc160:amd64 (1:9.11.3+dfsg-1ubuntu1.12) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Setting up libdns1100:amd64 (1:9.11.3+dfsg-1ubuntu1.12) ...
+Setting up liblwres160:amd64 (1:9.11.3+dfsg-1ubuntu1.12) ...
+Setting up libisccfg160:amd64 (1:9.11.3+dfsg-1ubuntu1.12) ...
+Setting up libirs160:amd64 (1:9.11.3+dfsg-1ubuntu1.12) ...
+Setting up libbind9-160:amd64 (1:9.11.3+dfsg-1ubuntu1.12) ...
+Setting up bind9-host (1:9.11.3+dfsg-1ubuntu1.12) ...
+Setting up dnsutils (1:9.11.3+dfsg-1ubuntu1.12) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+
+----
+end time: 2020-06-10 02:23:15(UTC)
+1 chunks with matched keywords or errors
+----
+execute_reply_status: ok

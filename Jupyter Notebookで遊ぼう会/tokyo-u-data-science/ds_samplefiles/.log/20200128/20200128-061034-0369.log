@@ -1,0 +1,31 @@
+# データを取得
+url = 'http://archive.ics.uci.edu/ml/machine-learning-databases/mushroom/agaricus-lepiota.data'
+res = requests.get(url).content
+
+# 取得したデータをDataFrameオブジェクトとして読み込み
+mushroom = pd.read_csv(io.StringIO(res.decode('utf-8')), header=None)
+
+# データの列にラベルを設定
+mushroom.columns =['classes','cap_shape','cap_surface','cap_color','odor','bruises',
+                             'gill_attachment','gill_spacing','gill_size','gill_color','stalk_shape',
+                             'stalk_root','stalk_surface_above_ring','stalk_surface_below_ring',
+                             'stalk_color_above_ring','stalk_color_below_ring','veil_type','veil_color',
+                             'ring_number','ring_type','spore_print_color','population','habitat']
+
+# 先頭5行を表示
+mushroom.head()
+----
+path: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-061034-0369.log
+notebook_path: tokyo-u-data-science/ds_samplefiles/Chapter8.ipynb
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-01-28 06:10:34(UTC)
+----
+
+----
+end time: 2020-01-28 06:10:35(UTC)
+0 chunks with matched keywords or errors
+----
+result: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-061034-0369-0.pkl
+execute_reply_status: ok

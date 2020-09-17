@@ -1,0 +1,36 @@
+# データを取得
+url = 'http://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data'
+res = requests.get(url).content
+
+# 取得したデータをDataFrameオブジェクトとして読み込み
+adult = pd.read_csv(io.StringIO(res.decode('utf-8')), header=None)
+
+# データの列にラベルを設定
+adult.columns =['age','workclass','fnlwgt','education','education-num','marital-status',
+                             'occupation','relationship','race','sex','capital-gain','capital-loss','hours-per-week',
+                             'native-country','flg-50K']
+
+
+# データの形式と欠損数を出力
+print('データの形式:{}'.format(adult.shape))
+print('欠損の数:{}'.format(adult.isnull().sum().sum()))
+
+# データの先頭5行を出力
+adult.head()
+----
+path: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-061031-0707.log
+notebook_path: tokyo-u-data-science/ds_samplefiles/Chapter8.ipynb
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-01-28 06:10:31(UTC)
+----
+データの形式:(32561, 15)
+欠損の数:0
+
+----
+end time: 2020-01-28 06:10:33(UTC)
+0 chunks with matched keywords or errors
+----
+result: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-061031-0707-0.pkl
+execute_reply_status: ok

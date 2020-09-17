@@ -1,0 +1,50 @@
+{"lc_cell_meme": {"current": "8678f092-9188-11e9-8556-02420a010127"}}
+----
+!dig @nse01.gunma-u.ac.jp www.gunma-u.ac.jp
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200702/20200702-011826-0292.log
+notebook_path: textbook/nw_sec/10-network-dns.ipynb
+lc_notebook_meme: 8678eba6-9188-11e9-8556-02420a010127
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-07-02 01:18:26(UTC)
+----
+
+; <<>> DiG 9.11.3-1ubuntu1.12-Ubuntu <<>> @nse01.gunma-u.ac.jp www.gunma-u.ac.jp
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18708
+;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 3, ADDITIONAL: 3
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: 1818c9c2844e4763285615d05efd35e5a33c007bf8d7acdc (good)
+;; QUESTION SECTION:
+;www.gunma-u.ac.jp.		IN	A
+
+;; ANSWER SECTION:
+www.gunma-u.ac.jp.	3600	IN	A	202.213.39.133
+
+;; AUTHORITY SECTION:
+gunma-u.ac.jp.		3600	IN	NS	nse02.gunma-u.ac.jp.
+gunma-u.ac.jp.		3600	IN	NS	nse01.gunma-u.ac.jp.
+gunma-u.ac.jp.		3600	IN	NS	dns-x.sinet.ad.jp.
+
+;; ADDITIONAL SECTION:
+nse01.gunma-u.ac.jp.	3600	IN	A	133.8.132.24
+nse02.gunma-u.ac.jp.	3600	IN	A	13.73.233.196
+
+;; Query time: 4 msec
+;; SERVER: 133.8.132.24#53(133.8.132.24)
+;; WHEN: Thu Jul 02 01:18:27 UTC 2020
+;; MSG SIZE  rcvd: 191
+
+
+----
+end time: 2020-07-02 01:18:27(UTC)
+1 chunks with matched keywords or errors
+----
+execute_reply_status: ok

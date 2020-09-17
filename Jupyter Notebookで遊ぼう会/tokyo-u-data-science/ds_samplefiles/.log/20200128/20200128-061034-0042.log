@@ -1,0 +1,16 @@
+np.exp(model.coef_)
+----
+path: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-061034-0042.log
+notebook_path: tokyo-u-data-science/ds_samplefiles/Chapter8.ipynb
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-01-28 06:10:34(UTC)
+----
+
+----
+end time: 2020-01-28 06:10:34(UTC)
+0 chunks with matched keywords or errors
+----
+result: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-061034-0042-0.pkl
+execute_reply_status: ok

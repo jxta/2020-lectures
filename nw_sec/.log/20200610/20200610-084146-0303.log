@@ -1,0 +1,25 @@
+{"lc_cell_meme": {"current": "d9dbb736-6be2-11e9-96dc-02420a00000b"}}
+----
+!sudo apt-get update
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200610/20200610-084146-0303.log
+notebook_path: textbook/nw_sec/4-linux-network.ipynb
+lc_notebook_meme: d9dbb4de-6be2-11e9-96dc-02420a00000b
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-06-10 08:41:46(UTC)
+----
+0% [Working]            Hit:1 https://download.docker.com/linux/ubuntu bionic InRelease
+0% [Connecting to archive.ubuntu.com] [Connecting to security.ubuntu.com]0% [1 InRelease gpgv 64.4 kB] [Connecting to archive.ubuntu.com] [Connecting to0% [Connecting to archive.ubuntu.com] [Connecting to security.ubuntu.com (91.18                                                                               Get:2 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+                                                                               0% [Waiting for headers] [2 InRelease 13.4 kB/88.7 kB 15%]                                                          Hit:3 http://archive.ubuntu.com/ubuntu bionic InRelease
+0% [Waiting for headers] [2 InRelease 13.4 kB/88.7 kB 15%]0% [3 InRelease gpgv 242 kB] [Waiting for headers] [2 InRelease 13.4 kB/88.7 kB                                                                               0% [Waiting for headers] [2 InRelease 40.7 kB/88.7 kB 46%]                                                          Get:4 http://archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+0% [4 InRelease 13.9 kB/88.7 kB 16%] [2 InRelease 40.7 kB/88.7 kB 46%]                                                                      0% [4 InRelease 26.8 kB/88.7 kB 30%]0% [2 InRelease gpgv 88.7 kB] [4 InRelease 26.8 kB/88.7 kB 30%]                                                               0% [4 InRelease 42.2 kB/88.7 kB 48%]                                    0% [Waiting for headers]0% [4 InRelease gpgv 88.7 kB] [Waiting for headers]                                                   0% [Waiting for headers]                        Get:5 http://archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+0% [5 InRelease 4,860 B/74.6 kB 7%]                                   0% [Working]0% [5 InRelease gpgv 74.6 kB]                             100% [Working]              Fetched 252 kB in 2s (123 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 53%Reading package lists... 66%Reading package lists... 66%Reading package lists... 67%Reading package lists... 67%Reading package lists... 75%Reading package lists... 75%Reading package lists... 76%Reading package lists... 76%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+
+----
+end time: 2020-06-10 08:41:51(UTC)
+1 chunks with matched keywords or errors
+----
+execute_reply_status: ok

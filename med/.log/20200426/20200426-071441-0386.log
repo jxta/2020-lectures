@@ -1,0 +1,100 @@
+{"lc_cell_meme": {"current": "3171f9b2-6178-11e9-b810-02420a00005a"}}
+----
+!curl https://etherpad.opendev.org/p/2020-med-b-ac/export/txt
+----
+path: /home/yoko69d621/textbook/med/.log/20200426/20200426-071441-0386.log
+notebook_path: textbook/med/4-linux-operating-system.ipynb
+lc_notebook_meme: 3171f642-6178-11e9-b810-02420a00005a
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-04-26 07:14:41(UTC)
+----
+
+このページは基本的に公開されてるので書き込み内容には注意してください。
+
+2020年度　データサイエンス　#1-#4 　講義出席管理（attendance confirmation)
+
+自分の学籍番号とニックネームを（学籍番号）スペース（ニックネーム）の形式で
+この下に書き込んでください。出席のチェックに使います。
+
+(4/23)　この日出席した人は以下に記入してください。
+（学籍ID) （ニックネーム）
+m2000062 すずお
+m2000085 ししょー
+m2000089 ろ
+m2000061 natsu
+m2000065 ryota
+m2000106 よっしー
+m2000067 taka
+m2000069 tada
+m2000104 Y
+m2000110 わしこ
+m2000094 A24
+m2000058 takumi
+m2000059　しもちゃん
+m2000070 clara
+m2000071　つっしー
+m2000072 りり
+m2000088 yuka
+m2000103 yuji
+m2000063 ayu
+m2000081 tomo
+m2000080 hashiko
+m2000097 やまちゃん
+m2000090 Yu
+m2000098 rina
+m2000102 けん
+m2000078 miyu
+m2000082 はっしー
+m2000057 tetsuya
+m2000066　りょう
+m2000084りょーりょー
+m2000095 yaji
+m2000093　taka
+m2000112 kazu
+m2000075　takao
+m2000073 ®️
+m2000109 satoi
+m2000100 ryoko
+m2000111 yuta
+m2000108 keisuke
+m2000092 水
+m2000096 yasu
+m2000064 yuka
+m2000083 habara
+m2000099 taito
+m2000077 koushi
+m2000079 yuto
+m2000105　ユーユ
+m2000076 ぬ
+m2000101 ^_^
+m2000087 ryu
+m2000060 しゅし
+m2000091 ＠
+m2000074 中
+m2000107 りさこ
+m2000068 toshi
+m2000086 hino
+
+
+(4/17) 参加予定の人は以下に記入してください。
+（学籍ID) （ニックネーム）
+m2000000 yoko
+m2000085 ししょー
+m2000059 
+m2000089 ろ
+m2000080ハシ
+m2000035 sayaka
+m2000086 yumie
+m2000062 suzuo
+m2000090 Yu
+m2000071 つっし
+
+
+
+----
+end time: 2020-04-26 07:14:42(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

@@ -1,0 +1,44 @@
+{"lc_cell_meme": {"current": "d9dbb77c-6be2-11e9-96dc-02420a00000b"}}
+----
+!sudo apt-get install iproute2 iputils-ping -y
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200527/20200527-090323-0687.log
+notebook_path: textbook/nw_sec/4-linux-network.ipynb
+lc_notebook_meme: d9dbb4de-6be2-11e9-96dc-02420a00000b
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-05-27 09:03:23(UTC)
+----
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 62%Reading package lists... 66%Reading package lists... 66%Reading package lists... 67%Reading package lists... 67%Reading package lists... 75%Reading package lists... 75%Reading package lists... 76%Reading package lists... 76%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 92%Reading package lists... 92%Reading package lists... 93%Reading package lists... 93%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+iputils-ping is already the newest version (3:20161105-1ubuntu3).
+Suggested packages:
+  iproute2-doc
+The following NEW packages will be installed:
+  iproute2 libatm1
+0 upgraded, 2 newly installed, 0 to remove and 178 not upgraded.
+Need to get 744 kB of archives.
+After this operation, 2,255 kB of additional disk space will be used.
+0% [Working]            Get:1 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 iproute2 amd64 4.15.0-2ubuntu1.1 [723 kB]
+0% [1 iproute2 2,293 B/723 kB 0%]5% [1 iproute2 47.4 kB/723 kB 7%]24% [1 iproute2 226 kB/723 kB 31%]                                  88% [Waiting for headers]                         Get:2 http://archive.ubuntu.com/ubuntu bionic/main amd64 libatm1 amd64 1:2.5.1-2build1 [21.9 kB]
+88% [2 libatm1 3,583 B/21.9 kB 16%]                                   100% [Working]              Fetched 744 kB in 2s (358 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package iproute2.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 127342 files and directories currently installed.)
+Preparing to unpack .../iproute2_4.15.0-2ubuntu1.1_amd64.deb ...
+Unpacking iproute2 (4.15.0-2ubuntu1.1) ...
+Selecting previously unselected package libatm1:amd64.
+Preparing to unpack .../libatm1_1%3a2.5.1-2build1_amd64.deb ...
+Unpacking libatm1:amd64 (1:2.5.1-2build1) ...
+Setting up iproute2 (4.15.0-2ubuntu1.1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Setting up libatm1:amd64 (1:2.5.1-2build1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+
+----
+end time: 2020-05-27 09:03:29(UTC)
+1 chunks with matched keywords or errors
+----
+execute_reply_status: ok

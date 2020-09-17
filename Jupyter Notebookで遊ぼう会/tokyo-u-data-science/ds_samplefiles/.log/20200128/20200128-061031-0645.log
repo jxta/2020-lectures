@@ -1,0 +1,47 @@
+# データ分割（訓練データとテストデータ）のためのインポート
+from sklearn.model_selection import train_test_split
+
+# 重回帰のモデル構築のためのインポート
+from sklearn.linear_model import LinearRegression
+
+ # 目的変数にpriceを指定、説明変数にそれ以外を指定
+X = auto.drop('price', axis=1)
+y = auto['price']
+
+# 訓練データとテストデータに分ける
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state=0)
+
+# 重回帰クラスの初期化と学習
+model = LinearRegression()
+model.fit(X_train,y_train)
+
+# 決定係数を表示
+print('決定係数(train):{:.3f}'.format(model.score(X_train,y_train)))
+print('決定係数(test):{:.3f}'.format(model.score(X_test,y_test)))
+ 
+# 回帰係数と切片を表示
+print('\n回帰係数\n{}'.format(pd.Series(model.coef_, index=X.columns)))
+print('切片: {:.3f}'.format(model.intercept_))
+----
+path: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-061031-0645.log
+notebook_path: tokyo-u-data-science/ds_samplefiles/Chapter8.ipynb
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-01-28 06:10:31(UTC)
+----
+決定係数(train):0.733
+決定係数(test):0.737
+
+回帰係数
+horsepower      81.651078
+width         1829.174506
+height         229.510077
+dtype: float64
+切片: -128409.046
+
+----
+end time: 2020-01-28 06:10:31(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

@@ -1,0 +1,18 @@
+# 最後に評価された式の返り値が、自動的に出力されます。
+a = list(range(10))
+sorted(a, reverse=True)
+----
+path: /home/yoko69d621/textbook/jupyter101/genome-sci/.log/20200415/20200415-012523-0775.log
+notebook_path: textbook/jupyter101/genome-sci/jupyter_introduction.ipynb
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-04-15 01:25:23(UTC)
+----
+
+----
+end time: 2020-04-15 01:25:23(UTC)
+0 chunks with matched keywords or errors
+----
+result: /home/yoko69d621/textbook/jupyter101/genome-sci/.log/20200415/20200415-012523-0775-0.pkl
+execute_reply_status: ok

@@ -1,0 +1,27 @@
+# gill_colorがbでない場合のエントロピー
+p1 = 4208/(4208+2188)
+p2 = 1 - p1
+entropy_b0 = - (p1*np.log2(p1) + p2*np.log2(p2))
+
+# gill_colorがbである場合のエントロピー
+p1 = 0/(0+1728)
+p2 = 1 - p1
+entropy_b1 = - (p2*np.log2(p2))
+
+entropy_after = (4208+2188)/8124*entropy_b0 + (0+1728)/8124*entropy_b1
+print('変数gill_colorの分割によって得られる情報利得: {:.3f}'.format(entropy_init - entropy_after))
+----
+path: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-061035-0468.log
+notebook_path: tokyo-u-data-science/ds_samplefiles/Chapter8.ipynb
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-01-28 06:10:35(UTC)
+----
+変数gill_colorの分割によって得られる情報利得: 0.269
+
+----
+end time: 2020-01-28 06:10:35(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

@@ -1,0 +1,20 @@
+{"lc_cell_meme": {"current": "ceb409ce-9196-11e9-8556-02420a010127"}}
+----
+!ip route get 8.8.8.8
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200625/20200625-024504-0757.log
+notebook_path: textbook/nw_sec/9-network-routing.ipynb
+lc_notebook_meme: ceb40460-9196-11e9-8556-02420a010127
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-06-25 02:45:04(UTC)
+----
+8.8.8.8 via 172.19.0.1 dev eth1 src 172.19.0.127 
+    cache 
+
+----
+end time: 2020-06-25 02:45:06(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

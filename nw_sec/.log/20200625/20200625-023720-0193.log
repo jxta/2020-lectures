@@ -1,0 +1,30 @@
+{"lc_cell_meme": {"current": "ceb40852-9196-11e9-8556-02420a010127"}}
+----
+!ip addr
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200625/20200625-023720-0193.log
+notebook_path: textbook/nw_sec/9-network-routing.ipynb
+lc_notebook_meme: ceb40460-9196-11e9-8556-02420a010127
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-06-25 02:37:20(UTC)
+----
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+392: eth0@if393: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1450 qdisc noqueue state UP group default 
+    link/ether 02:42:0a:01:01:15 brd ff:ff:ff:ff:ff:ff link-netnsid 0
+    inet 10.1.1.21/20 brd 10.1.15.255 scope global eth0
+       valid_lft forever preferred_lft forever
+666: eth1@if667: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default 
+    link/ether 02:42:ac:13:00:7f brd ff:ff:ff:ff:ff:ff link-netnsid 1
+    inet 172.19.0.127/16 brd 172.19.255.255 scope global eth1
+       valid_lft forever preferred_lft forever
+
+----
+end time: 2020-06-25 02:37:21(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

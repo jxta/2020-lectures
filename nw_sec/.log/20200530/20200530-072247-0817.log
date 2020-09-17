@@ -1,0 +1,60 @@
+{"lc_cell_meme": {"current": "d9dbb7f4-6be2-11e9-96dc-02420a00000b"}}
+----
+!netstat -ntl
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200530/20200530-072247-0817.log
+notebook_path: textbook/nw_sec/5-linux-security.ipynb
+lc_notebook_meme: d9dbb4de-6be2-11e9-96dc-02420a00000b
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-05-30 07:22:47(UTC)
+----
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 127.0.0.11:44527        0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:35056         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:56817         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:44721         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:37202         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:34964         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:60724         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:53557         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:34390         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:37654         0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:37464         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:51768         0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:8888            0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:51193         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:48825         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:52506         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:40250         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:37727         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:43647         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:39423         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:42976         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:38112         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:45984         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:53121         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:48130         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:53539         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:41604         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:35268         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:40357         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:43590         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:43975         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:57351         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:46280         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:44810         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:48554         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:51915         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:45100         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:39757         0.0.0.0:*               LISTEN     
+tcp6       0      0 :::22                   :::*                    LISTEN     
+
+----
+end time: 2020-05-30 07:22:49(UTC)
+1 chunks with matched keywords or errors
+----
+execute_reply_status: ok

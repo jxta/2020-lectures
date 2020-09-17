@@ -1,0 +1,30 @@
+{"lc_cell_meme": {"current": "ceb4071c-9196-11e9-8556-02420a010127"}}
+----
+!sudo apt-get update
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200625/20200625-023644-0874.log
+notebook_path: textbook/nw_sec/9-network-routing.ipynb
+lc_notebook_meme: ceb40460-9196-11e9-8556-02420a010127
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-06-25 02:36:44(UTC)
+----
+0% [Working]            Hit:1 https://download.docker.com/linux/ubuntu bionic InRelease
+0% [Connecting to archive.ubuntu.com] [Connecting to security.ubuntu.com]0% [1 InRelease gpgv 64.4 kB] [Connecting to archive.ubuntu.com] [Connecting to                                                                               0% [Connecting to archive.ubuntu.com] [Connecting to security.ubuntu.com]                                                                         Get:2 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+                                                                         0% [Waiting for headers] [2 InRelease 12.6 kB/88.7 kB 14%]                                                          Hit:3 http://archive.ubuntu.com/ubuntu bionic InRelease
+0% [Waiting for headers] [2 InRelease 12.6 kB/88.7 kB 14%]0% [3 InRelease gpgv 242 kB] [Waiting for headers] [2 InRelease 12.6 kB/88.7 kB                                                                               0% [Waiting for headers] [2 InRelease 51.2 kB/88.7 kB 58%]                                                          Get:4 http://archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+0% [4 InRelease 13.9 kB/88.7 kB 16%] [2 InRelease 62.8 kB/88.7 kB 71%]                                                                      0% [4 InRelease 13.9 kB/88.7 kB 16%]0% [2 InRelease gpgv 88.7 kB] [4 InRelease 13.9 kB/88.7 kB 16%]                                                               0% [4 InRelease 34.5 kB/88.7 kB 39%]                                    Get:5 http://security.ubuntu.com/ubuntu bionic-security/main amd64 Packages [961 kB]
+0% [4 InRelease 42.2 kB/88.7 kB 48%] [5 Packages 4,943 B/961 kB 1%]                                                                   0% [Waiting for headers] [5 Packages 139 kB/961 kB 14%]0% [4 InRelease gpgv 88.7 kB] [Waiting for headers] [5 Packages 139 kB/961 kB 1                                                                               0% [Waiting for headers] [5 Packages 427 kB/961 kB 44%]                                                       Get:6 http://archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+0% [6 InRelease 4,858 B/74.6 kB 7%] [5 Packages 636 kB/961 kB 66%]                                                                  0% [5 Packages 686 kB/961 kB 71%]0% [6 InRelease gpgv 74.6 kB] [Waiting for headers] [5 Packages 686 kB/961 kB 7                                                                               0% [6 InRelease gpgv 74.6 kB] [Waiting for headers]0% [5 Packages store 0 B] [6 InRelease gpgv 74.6 kB] [Waiting for headers]                                                                          42% [5 Packages store 0 B] [Waiting for headers]                                                42% [Waiting for headers]                         Get:7 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [1,270 kB]
+42% [7 Packages 4,941 B/1,270 kB 0%]55% [7 Packages 617 kB/1,270 kB 49%]                                    68% [Waiting for headers]                         Get:8 http://archive.ubuntu.com/ubuntu bionic-updates/restricted amd64 Packages [87.2 kB]
+68% [8 Packages 2,285 B/87.2 kB 3%]68% [7 Packages store 0 B] [8 Packages 17.7 kB/87.2 kB 20%]                                                           Get:9 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [1,398 kB]
+70% [7 Packages store 0 B] [9 Packages 6,319 B/1,398 kB 0%]                                                           85% [9 Packages 760 kB/1,398 kB 54%]86% [8 Packages store 0 B] [9 Packages 773 kB/1,398 kB 55%]                                                           88% [9 Packages 850 kB/1,398 kB 61%]                                    99% [Waiting for headers]                         Get:10 http://archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 Packages [20.7 kB]
+99% [10 Packages 4,328 B/20.7 kB 21%]99% [9 Packages store 0 B] [10 Packages 4,328 B/20.7 kB 21%]                                                            99% [9 Packages store 0 B]                          99% [Working]99% [10 Packages store 0 B]                           100% [Working]              Fetched 3,989 kB in 3s (1,289 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 7%Reading package lists... 45%Reading package lists... 66%Reading package lists... 66%Reading package lists... 67%Reading package lists... 67%Reading package lists... 75%Reading package lists... 75%Reading package lists... 76%Reading package lists... 76%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 93%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+
+----
+end time: 2020-06-25 02:36:51(UTC)
+1 chunks with matched keywords or errors
+----
+execute_reply_status: ok

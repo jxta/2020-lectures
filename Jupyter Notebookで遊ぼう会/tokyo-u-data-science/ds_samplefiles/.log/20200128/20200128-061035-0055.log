@@ -1,0 +1,18 @@
+print('データの形式:{}'.format(mushroom.shape))
+print('欠損の数:{}'.format(mushroom.isnull().sum().sum()))
+----
+path: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-061035-0055.log
+notebook_path: tokyo-u-data-science/ds_samplefiles/Chapter8.ipynb
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-01-28 06:10:35(UTC)
+----
+データの形式:(8124, 23)
+欠損の数:0
+
+----
+end time: 2020-01-28 06:10:35(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

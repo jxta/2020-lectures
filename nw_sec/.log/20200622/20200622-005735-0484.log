@@ -1,0 +1,33 @@
+{"lc_cell_meme": {"current": "1cadfca4-8736-11e9-8556-02420a010127"}}
+----
+!whois -h whois.nic.ad.jp AS 2907
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200622/20200622-005735-0484.log
+notebook_path: textbook/nw_sec/8-linux-network-wan.ipynb
+lc_notebook_meme: 1cadf7d6-8736-11e9-8556-02420a010127
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-06-22 00:57:35(UTC)
+----
+[ JPNIC database provides information regarding IP address and ASN. Its use   ]
+[ is restricted to network administration purposes. For further information,  ]
+[ use 'whois -h whois.nic.ad.jp help'. To only display English output,        ]
+[ add '/e' at the end of command, e.g. 'whois -h whois.nic.ad.jp xxx/e'.      ]
+
+Autonomous System Information:
+a. [AS Number]                  2907
+b. [AS Name]                    SINET-AS
+g. [Organization]               Research Organization of Information and Systems, National Institute of Informatics
+m. [Administrative Contact]     JP00006158
+n. [Technical Contact]          JP00006158
+o. [IMPORT]                     
+p. [EXPORT]                     
+[Assigned Date]                 2007/11/29
+[Last Update]                   2008/11/28 14:20:25(JST)
+
+----
+end time: 2020-06-22 00:57:36(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

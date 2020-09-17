@@ -1,0 +1,33 @@
+{"lc_cell_meme": {"current": "310cd986-8803-11e9-8556-02420a010127"}}
+----
+!wget ftp://ftp.ddbj.nig.ac.jp/ddbj_database/dra/fastq/DRA000/DRA000001/DRX000001/DRR000001.fastq.bz2 -O /tmp/DRR000001.fastq.bz2
+----
+path: /home/yoko69d621/textbook/med/.log/20200501/20200501-071946-0658.log
+notebook_path: textbook/med/5-data-advance.ipynb
+lc_notebook_meme: 310cd670-8803-11e9-8556-02420a010127
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-05-01 07:19:46(UTC)
+----
+--2020-05-01 07:19:47--  ftp://ftp.ddbj.nig.ac.jp/ddbj_database/dra/fastq/DRA000/DRA000001/DRX000001/DRR000001.fastq.bz2
+           => ‘/tmp/DRR000001.fastq.bz2’
+Resolving ftp.ddbj.nig.ac.jp (ftp.ddbj.nig.ac.jp)... 133.39.24.50
+Connecting to ftp.ddbj.nig.ac.jp (ftp.ddbj.nig.ac.jp)|133.39.24.50|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /ddbj_database/dra/fastq/DRA000/DRA000001/DRX000001 ... done.
+==> SIZE DRR000001.fastq.bz2 ... 1387158
+==> PASV ... done.    ==> RETR DRR000001.fastq.bz2 ... done.
+Length: 1387158 (1.3M) (unauthoritative)
+
+DRR000001.fastq.bz2   0%[                    ]       0  --.-KB/s               DRR000001.fastq.bz2 100%[===================>]   1.32M  --.-KB/s    in 0.04s   
+
+2020-05-01 07:19:47 (29.5 MB/s) - ‘/tmp/DRR000001.fastq.bz2’ saved [1387158]
+
+
+----
+end time: 2020-05-01 07:19:47(UTC)
+4 chunks with matched keywords or errors
+----
+execute_reply_status: ok

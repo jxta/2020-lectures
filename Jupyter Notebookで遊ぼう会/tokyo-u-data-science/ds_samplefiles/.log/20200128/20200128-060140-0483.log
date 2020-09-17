@@ -1,0 +1,27 @@
+# concatでデータを横に結合(axis=1を指定)
+merge_data = pd.concat([pd.DataFrame(X[:,0]), pd.DataFrame(X[:,1]), pd.DataFrame(y_pred)], axis=1)
+
+# 上記のデータにて、X軸をfeature1、Y軸をfeature2、クラスター番号をclusterと列名指定
+merge_data.columns = ['feature1','feature2','cluster']
+
+# クラスタリング結果のグラフ化
+ax = None
+colors = ['blue', 'red', 'green']
+for i, data in merge_data.groupby('cluster'):
+    ax = data.plot.scatter(x='feature1', y='feature2', color=colors[i],
+                                           label=f'cluster{i}', ax=ax)
+----
+path: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-060140-0483.log
+notebook_path: tokyo-u-data-science/ds_samplefiles/Chapter9.ipynb
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-01-28 06:01:40(UTC)
+----
+
+----
+end time: 2020-01-28 06:01:40(UTC)
+0 chunks with matched keywords or errors
+----
+result: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-060140-0483-0.pkl
+execute_reply_status: ok

@@ -1,0 +1,40 @@
+{"lc_cell_meme": {"current": "8678eff2-9188-11e9-8556-02420a010127"}}
+----
+!dig @ns3.google.com www.google.com
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200702/20200702-011121-0749.log
+notebook_path: textbook/nw_sec/10-network-dns.ipynb
+lc_notebook_meme: 8678eba6-9188-11e9-8556-02420a010127
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-07-02 01:11:21(UTC)
+----
+
+; <<>> DiG 9.11.3-1ubuntu1.12-Ubuntu <<>> @ns3.google.com www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2175
+;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		300	IN	A	172.217.26.100
+
+;; Query time: 42 msec
+;; SERVER: 216.239.36.10#53(216.239.36.10)
+;; WHEN: Thu Jul 02 01:11:22 UTC 2020
+;; MSG SIZE  rcvd: 59
+
+
+----
+end time: 2020-07-02 01:11:23(UTC)
+1 chunks with matched keywords or errors
+----
+execute_reply_status: ok

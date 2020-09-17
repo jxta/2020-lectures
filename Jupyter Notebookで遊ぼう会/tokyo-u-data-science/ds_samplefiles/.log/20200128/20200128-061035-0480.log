@@ -1,0 +1,30 @@
+from sklearn.tree import  DecisionTreeClassifier
+from sklearn.model_selection import train_test_split
+
+# データ分割
+X = mushroom_dummy.drop('flg', axis=1)
+y = mushroom_dummy['flg']
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0)
+
+# 決定木クラスの初期化と学習
+model = DecisionTreeClassifier(criterion='entropy', max_depth=5, random_state=0)
+model.fit(X_train,y_train)
+
+print('正解率(train):{:.3f}'.format(model.score(X_train, y_train)))
+print('正解率(test):{:.3f}'.format(model.score(X_test, y_test)))
+----
+path: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-061035-0480.log
+notebook_path: tokyo-u-data-science/ds_samplefiles/Chapter8.ipynb
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-01-28 06:10:35(UTC)
+----
+正解率(train):0.883
+正解率(test):0.894
+
+----
+end time: 2020-01-28 06:10:35(UTC)
+0 chunks with matched keywords or errors
+----
+execute_reply_status: ok

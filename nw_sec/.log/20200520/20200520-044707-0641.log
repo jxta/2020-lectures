@@ -1,0 +1,41 @@
+{"lc_cell_meme": {"current": "3171fbf6-6178-11e9-b810-02420a00005a"}}
+----
+!(curl https://etherpad.opendev.org/p/2020-nw-sec-ac/export/txt 2> /dev/null)|cut -c1-8 |head -108|tail -100|tr [a-z] [A-Z]|uniq|sort| diff - ./nw-sec
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20200520/20200520-044707-0641.log
+notebook_path: textbook/nw_sec/3-linux-operating-system.ipynb
+lc_notebook_meme: 3171f642-6178-11e9-b810-02420a00005a
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-05-20 04:47:07(UTC)
+----
+1d0
+< 
+12a12,13
+> H200A075
+> H200B005
+18a20
+> T180D517
+20a23
+> T200A065
+30a34
+> T200B053
+57a62
+> T200D048
+66a72
+> T200D081
+84a91
+> T200D138
+92c99
+< T200E029
+---
+> T200E029
+\ No newline at end of file
+
+----
+end time: 2020-05-20 04:47:09(UTC)
+0 chunks with matched keywords or errors
+----
+result: /home/yoko69d621/textbook/nw_sec/.log/20200520/20200520-044707-0641-0.pkl
+execute_reply_status: error

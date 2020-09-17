@@ -1,0 +1,28 @@
+{"lc_cell_meme": {"current": "0eaee69e-7f58-11e9-a4fd-02420a01012b"}}
+----
+n = 3*5
+data=np.zeros((n-1,n-1))
+
+for i in range(1,n):
+    for j in range(1,n):
+        data[i-1][j-1] = int((i**j) % n )
+
+df = pd.DataFrame(data, dtype='int')
+df = df.rename(columns=lambda s:   'a**'+ str(s+1), index=lambda s: 'a=' +str(s+1) )
+df
+----
+path: /home/yoko69d621/textbook/nw_sec/.log/20190914/20190914-132533-0826.log
+notebook_path: textbook/nw_sec/12-security-euler.ipynb
+lc_notebook_meme: a8ff14d2-7f56-11e9-a4fd-02420a01012b
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2019-09-14 13:25:33(UTC)
+----
+
+----
+end time: 2019-09-14 13:25:33(UTC)
+0 chunks with matched keywords or errors
+----
+result: /home/yoko69d621/textbook/nw_sec/.log/20190914/20190914-132533-0826-0.pkl
+execute_reply_status: ok

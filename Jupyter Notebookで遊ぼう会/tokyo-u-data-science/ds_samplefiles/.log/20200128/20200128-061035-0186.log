@@ -1,0 +1,23 @@
+# pの値を0.001から0.999まで0.01刻みで動かす
+p = np.arange(0.001, 0.999, 0.01)
+
+# グラフ化
+plt.plot(p, calc_entropy(p)) 
+plt.xlabel('prob')
+plt.ylabel('entropy')
+plt.grid(True)
+----
+path: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-061035-0186.log
+notebook_path: tokyo-u-data-science/ds_samplefiles/Chapter8.ipynb
+server_signature: 5e786c6e-5fea-11e9-b810-02420a00005a
+uid: 1005
+gid: 100
+start time: 2020-01-28 06:10:35(UTC)
+----
+
+----
+end time: 2020-01-28 06:10:35(UTC)
+0 chunks with matched keywords or errors
+----
+result: /home/yoko69d621/tokyo-u-data-science/ds_samplefiles/.log/20200128/20200128-061035-0186-0.pkl
+execute_reply_status: ok
